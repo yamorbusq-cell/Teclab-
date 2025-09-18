@@ -1,0 +1,220 @@
+/* Estilos sencillos para la aplicación de test */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+  /*
+   * Al usar una estructura de contenedor de desplazamiento (scroll-container),
+   * el cuerpo deja de ser scrollable para evitar el efecto de rebote en iOS.
+   * Se elimina el overscroll-behavior aquí ya que el contenedor gestionará
+   * el desplazamiento.
+   */
+
+header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.intro {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+.form-group input[type="number"],
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.start-btn,
+#restart-btn {
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.start-btn:hover,
+#restart-btn:hover {
+  background-color: #1d4ed8;
+}
+
+#answers-list {
+  margin-top: 1rem;
+}
+
+#answers-list label {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.feedback {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.feedback.correct {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #10b981;
+}
+
+.feedback.incorrect {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.controls button:hover {
+  background-color: #1d4ed8;
+}
+
+#results-content {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #f9fafb;
+  color: #6b7280;
+}
+
+/*
+ * Desactivamos el desplazamiento del documento y lo delegamos a un contenedor
+ * interno. De esta forma se evita el efecto de rebote en iOS y otros
+ * navegadores móviles. La etiqueta html y body tienen altura completa y
+ * overflow oculto; el contenedor `.scroll-container` ocupa toda la altura
+ * disponible y permite el desplazamiento del contenido.
+ */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*
+ * El contenedor scrollable ocupa toda la altura de la ventana (100vh)
+ * para asegurar que el documento no se desplace fuera del contenedor y
+ * evitar rebotes en visores móviles. Utiliza -webkit-overflow-scrolling
+ * para mantener la inercia del desplazamiento.
+ */
+.scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*
+ * Resaltar enlaces de navegación en el encabezado.
+ * El enlace al temario del Tema 1 y el enlace de vuelta al inicio
+ * aparecen en un encabezado azul oscuro, por lo que se define su color
+ * como blanco para mejorar la visibilidad. También se mantiene el
+ * subrayado y se aclara ligeramente al pasar el cursor por encima.
+ */
+header nav a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+header nav a:hover {
+  color: #dbeafe;
+}
+
+/*
+ * Estilo para enlaces de navegación personalizados. Este selector se aplica
+ * directamente a cualquier elemento con clase `nav-link`, independientemente
+ * de su ubicación, y establece un color blanco con subrayado para mejorar
+ * la visibilidad sobre fondos oscuros.
+ */
+/*
+ * Estilos para enlaces con clase nav-link. Usamos la directiva !important
+ * para asegurarnos de que estos colores prevalecen sobre los estilos
+ * predeterminados de los navegadores, incluyendo el estado :visited.
+ */
+.nav-link {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  color: #dbeafe !important;
+}
+
+/*
+ * Asegura que los enlaces nav-link se mantengan blancos después de haber sido visitados.
+ */
+.nav-link:visited {
+  color: #ffffff !important;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Habilita la visualización a pantalla completa en iOS al añadir a la pantalla de inicio -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>Temario Tema 1 – Conceptos básicos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Inicio contenedor scroll para evitar rebote en móviles -->
+  <div class="scroll-container">
+  <header>
+    <h1>Temario Tema 1 – Conceptos básicos</h1>
+    <p class="intro">
+      En este apartado se recogen todos los contenidos marcados con una
+      estrella en el material del Tema 1. Cada bloque se presenta de forma
+      esquemática para facilitar el repaso. Utiliza estos resúmenes para
+      orientar tu estudio y, cuando te sientas preparado/a, vuelve a la
+      página principal para practicar con los test correspondientes.
+    </p>
+    <nav>
+      <!--
+        Añadimos un estilo en línea para forzar que el enlace sea visible
+        sobre el fondo azul oscuro. Aunque el color también se define en
+        style.css, este estilo en línea garantiza la visibilidad en
+        navegadores que puedan aplicar estilos predeterminados al estado
+        visitado.
+      -->
+      <a class="nav-link" href="index.html" style="color: #ffffff;">Volver al inicio</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Subtema 1 – Calibración y control de calidad</h2>
+      <ul>
+        <li><strong>Control de calidad interno:</strong> utiliza controles con valores conocidos para monitorizar la exactitud y precisión; abarca toda la curva de calibrado, usa controles independientes y se realiza periódicamente.</li>
+        <li><strong>Control de calidad externo:</strong> comparaciones inter‑laboratorio con valores desconocidos para evaluar la dispersión, seleccionar nuevas metodologías y comprobar el programa interno.</li>
+        <li><strong>Error aleatorio (imprecisión):</strong> se detecta por la dispersión de los resultados; se cuantifica mediante la desviación estándar o el coeficiente de variación.</li>
+        <li><strong>Error sistemático (sesgo):</strong> causa desviaciones constantes respecto al valor verdadero; se corrige calibrando y se calcula como desviación absoluta o relativa.</li>
+        <li><strong>Error total:</strong> suma de la variabilidad aleatoria y del sesgo.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Subtema 2 – Estadística diagnóstica y rendimiento de las pruebas</h2>
+      <ul>
+        <li><strong>Sensibilidad:</strong> probabilidad de que la prueba detecte la enfermedad en sujetos enfermos; se calcula como VP/(VP + FN).</li>
+        <li><strong>Especificidad:</strong> probabilidad de identificar correctamente a los sujetos sanos; se calcula como VN/(VN + FP).</li>
+        <li><strong>Valores predictivos:</strong> el valor predictivo positivo (VPP) y negativo (VPN) varían con la prevalencia; un aumento de prevalencia incrementa el VPP y disminuye el VPN. Para cribado se prefieren pruebas muy sensibles (pocos falsos negativos) y para confirmación pruebas muy específicas (pocos falsos positivos).</li>
+        <li><strong>Regla para interpretar SE/VPP/VPN:</strong> identifica primero lo que se conoce (estado de salud o resultado de la prueba). Si conoces el estado (sano/enfermo), aplica la regla SE (sano → especificidad, enfermo → sensibilidad). Si conoces el resultado (positivo/negativo), aplica VPP o VPN respectivamente.</li>
+        <li><strong>Curvas ROC:</strong> relacionan la sensibilidad frente a (1 − especificidad). El área bajo la curva (AUC) mide la capacidad discriminatoria; cuanto más cerca de la esquina superior izquierda, mayor AUC y mejor rendimiento de la prueba.</li>
+        <li><strong>Categorización de la AUC:</strong> 0,5 – 0,6 test malo; 0,6 – 0,75 test regular; 0,75 – 0,9 test bueno; 0,9 – 0,97 test muy bueno.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Subtema 3 – Intervalos de referencia y variabilidad biológica</h2>
+      <ul>
+        <li><strong>Distribución normal:</strong> el 68,3 % de las observaciones se encuentra entre la media ± 1 DE, el 95,5 % entre la media ± 2 DE y el 99,7 % entre la media ± 3 DE.</li>
+        <li><strong>Valor de referencia de un cambio (VRC) o delta check:</strong> diferencia entre dos resultados consecutivos de un mismo individuo que indica un cambio clínicamente relevante, tras controlar la variabilidad preanalítica y analítica.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Subtema 4 – Unidades, concentraciones y diluciones</h2>
+      <ul>
+        <li><strong>Molaridad (M):</strong> moles de soluto por litro de disolución.</li>
+        <li><strong>Molalidad (m):</strong> moles de soluto por kilogramo de disolvente.</li>
+        <li><strong>Relación entre normalidad y molaridad:</strong> para un ácido N = M × número de protones; para una base N = M × número de grupos OH–.</li>
+        <li><strong>Diluciones:</strong> para preparar una disolución menos concentrada a partir de otra, usa la fórmula Vi × Ci = Vf × Cf (volumen inicial por concentración inicial igual al volumen final por concentración final).</li>
+        <li><strong>Consejos para resolver preguntas de diluciones:</strong> asegúrate de usar las mismas unidades y recuerda que puedes multiplicar o dividir numerador y denominador de la fracción para expresar el factor de dilución con numerador 1.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Subtema 5 – Preanalítica (muestras, suero y plasma)</h2>
+      <ul>
+        <li><strong>Diferencia entre suero y plasma:</strong> el suero se obtiene sin anticoagulante, carece de fibrinógeno y requiere esperar a que coagule antes de centrifugar; el plasma se obtiene con anticoagulante, contiene todos los factores de coagulación y se puede centrifugar inmediatamente.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>
+      Esta página resume los contenidos señalados con una estrella en el tema
+      sobre conceptos básicos. Para practicar, vuelve al inicio y escoge el
+      subtema correspondiente.
+    </p>
+  </footer>
+  <!-- Fin contenedor scroll -->
+  </div>
+</body>
+</html>

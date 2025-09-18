@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Habilita la visualización a pantalla completa en iOS al añadir a la pantalla de inicio -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>Practicando Oposiciones - Laboratorio Clínico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Inicio contenedor scroll para evitar rebote en móviles -->
+  <div class="scroll-container">
+  <header>
+    <h1>Practicando Oposiciones<br />Laboratorio Clínico y Biomédico</h1>
+    <p class="intro">
+      Esta es una versión de borrador para uso personal. Aquí podrás practicar
+      preguntas por tema o de forma aleatoria y elegir cuándo deseas ver las
+      respuestas.
+    </p>
+    <nav>
+      <!-- Enlace al temario del Tema 1 -->
+      <!--
+        Añadimos un estilo en línea para forzar que el enlace sea visible
+        sobre el fondo azul oscuro. Aunque el color también se define en
+        style.css, este estilo en línea garantiza la visibilidad en
+        navegadores que puedan aplicar estilos predeterminados al estado
+        visitado.
+      -->
+      <a class="nav-link" href="temario_tema1.html" style="color: #ffffff;">Ver temario del Tema 1</a>
+    </nav>
+  </header>
+  <main>
+    <section id="config-section" class="card">
+      <h2>Configurar un nuevo test</h2>
+      <form id="config-form">
+        <div class="form-group">
+          <label for="theme-select">Selecciona el tema:</label>
+          <select id="theme-select" name="theme">
+            <!-- Las opciones de temas se rellenan dinámicamente mediante script.js -->
+          </select>
+        </div>
+        <div class="form-group" id="subtopic-group" hidden>
+          <label for="subtopic-select">Selecciona el subtema:</label>
+          <select id="subtopic-select" name="subtopic">
+            <!-- Las opciones de subtemas se rellenan dinámicamente en función del tema -->
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="num-questions">Número de preguntas:</label>
+          <input
+            type="number"
+            id="num-questions"
+            name="numQuestions"
+            min="1"
+            value="5"
+          />
+        </div>
+        <div class="form-group">
+          <label>Modo de corrección:</label>
+          <div class="radio-group">
+            <label>
+              <input
+                type="radio"
+                name="mode"
+                value="immediate"
+                checked
+              />
+              Inmediata (pregunta a pregunta)
+            </label>
+            <label>
+              <input type="radio" name="mode" value="deferred" />
+              Final (al terminar el examen)
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="start-btn">Comenzar Test</button>
+      </form>
+    </section>
+
+    <section id="quiz-section" class="card" hidden>
+      <h2 id="quiz-title">Test</h2>
+      <div id="question-container">
+        <p id="question-text"></p>
+        <div id="answers-list"></div>
+      </div>
+      <div id="feedback" class="feedback"></div>
+      <div id="controls" class="controls">
+        <!-- Los botones se añaden dinámicamente según el modo -->
+      </div>
+    </section>
+
+    <section id="results-section" class="card" hidden>
+      <h2>Resultados</h2>
+      <div id="results-content"></div>
+      <button id="restart-btn" class="start-btn">Volver al inicio</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Puedes modificar las preguntas editando el archivo <code>script.js</code>
+      o añadiendo un nuevo fichero de preguntas. En esta versión el banco de
+      preguntas incluye las cuestiones del Tema&nbsp;1 tomadas de los tests
+      oficiales.
+    </p>
+  </footer>
+  <!-- Fin contenedor scroll -->
+  </div>
+  <!-- Cargamos primero el banco oficial de preguntas si existe -->
+  <script src="questions_official.js"></script>
+  <!-- Lógica principal de la aplicación -->
+  <script src="script.js"></script>
+</body>
+</html>
