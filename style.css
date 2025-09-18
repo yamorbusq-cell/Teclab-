@@ -152,28 +152,20 @@ footer {
 }
 
 /*
- * Desactivamos el desplazamiento del documento y lo delegamos a un contenedor
- * interno. De esta forma se evita el efecto de rebote en iOS y otros
- * navegadores móviles. La etiqueta html y body tienen altura completa y
- * overflow oculto; el contenedor `.scroll-container` ocupa toda la altura
- * disponible y permite el desplazamiento del contenido.
+ * Normalizamos la altura y el desbordamiento para permitir el desplazamiento
+ * natural del documento en todas las plataformas. Eliminamos las reglas
+ * específicas de scroll-container porque ya no se necesitan en esta versión.
  */
 html,
 body {
-  height: 100%;
-  overflow: hidden;
+  height: auto;
+  overflow: auto;
 }
 
-/*
- * El contenedor scrollable ocupa toda la altura de la ventana (100vh)
- * para asegurar que el documento no se desplace fuera del contenedor y
- * evitar rebotes en visores móviles. Utiliza -webkit-overflow-scrolling
- * para mantener la inercia del desplazamiento.
- */
+/* Eliminamos la clase scroll-container: su definición se ha eliminado porque
+ * ya no se utiliza para controlar el desplazamiento en dispositivos móviles. */
 .scroll-container {
-  height: 100vh;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  /* sin estilos específicos */
 }
 
 /*
