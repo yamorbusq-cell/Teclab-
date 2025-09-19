@@ -7,99 +7,73 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
   <header>
-    <!-- Encabezado principal de la aplicación -->
     <h1>TECLAB</h1>
-    <p class="intro">
-      Esta es una versión de borrador para uso personal. Aquí podrás practicar
-      preguntas por tema o de forma aleatoria y elegir cuándo deseas ver las
-      respuestas.
-    </p>
     <nav class="nav-actions">
-      <!-- Botón para volver al inicio -->
-      <button id="nav-inicio-btn" class="nav-btn">Inicio</button>
-      <!-- Botón para acceder al temario del Tema 1 -->
-      <button id="nav-tema1-btn" class="nav-btn">Tema 1</button>
-    </nav>
+      <a class="nav-btn" href="temario_tema1.html">tema 1</a>
+      <a class="nav-btn" href="temario_tema2.html">tema 2</a>
+  <a class="nav-btn" href="temario_tema3.html">tema 3</a>
+  <a class="nav-btn" href="temario_tema4.html">tema 4</a>
+</nav>
   </header>
+
   <main>
     <section id="config-section" class="card">
-      <h2>Configurar un nuevo test</h2>
+      <h2>Tests</h2>
       <form id="config-form">
-        <div class="form-group">
-          <label for="theme-select">Selecciona el tema:</label>
-          <select id="theme-select" name="theme">
-            <!-- Las opciones de temas se rellenan dinámicamente mediante script.js -->
-          </select>
+        <div class="row">
+          <label for="theme">Tema</label>
+          <select id="theme" required></select>
         </div>
-        <div class="form-group" id="subtopic-group" hidden>
-          <label for="subtopic-select">Selecciona el subtema:</label>
-          <select id="subtopic-select" name="subtopic">
-            <!-- Las opciones de subtemas se rellenan dinámicamente en función del tema -->
-          </select>
+
+        <div class="row">
+          <label for="subtheme">Subtema</label>
+          <select id="subtheme"></select>
         </div>
-        <div class="form-group">
-          <label for="num-questions">Número de preguntas:</label>
-          <input
-            type="number"
-            id="num-questions"
-            name="numQuestions"
-            min="1"
-            value="5"
-          />
+
+        <fieldset class="row">
+          <legend>Modo de corrección</legend>
+          <label><input type="radio" name="mode" value="immediate" checked> Inmediata (corrige y explica por pregunta)</label>
+          <label><input type="radio" name="mode" value="exam"> Examen (corrige al final)</label>
+        </fieldset>
+<fieldset id="order-fieldset" class="row" style="display:none;">
+  <legend>Orden del tema (cuando eliges "Todos")</legend>
+  <label><input type="radio" name="themeOrder" value="subthemes" checked> Por subtemas (1 → n)</label>
+  <label><input type="radio" name="themeOrder" value="random"> Aleatorio (mezclado)</label>
+</fieldset>
+<div class="row">
+          <button type="submit" class="primary">Empezar</button>
         </div>
-        <div class="form-group">
-          <label>Modo de corrección:</label>
-          <div class="radio-group">
-            <label>
-              <input
-                type="radio"
-                name="mode"
-                value="immediate"
-                checked
-              />
-              Inmediata (pregunta a pregunta)
-            </label>
-            <label>
-              <input type="radio" name="mode" value="deferred" />
-              Final (al terminar el examen)
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="start-btn">Comenzar Test</button>
       </form>
     </section>
 
     <section id="quiz-section" class="card" hidden>
       <h2 id="quiz-title">Test</h2>
       <div id="question-container">
+        <h3 id="subtheme-header" class="subtheme-header"></h3>
         <p id="question-text"></p>
         <div id="answers-list"></div>
       </div>
       <div id="feedback" class="feedback"></div>
-      <div id="controls" class="controls">
-        <!-- Los botones se añaden dinámicamente según el modo -->
+      <div id="controls" class="controls"></div>
+      <div class="controls bottom">
+        <button id="finish-btn" class="finish-btn" type="button" hidden>Finalizar test</button>
       </div>
-
-      <!-- Botón para finalizar el test de forma anticipada y ver los resultados -->
-      <button id="finish-btn" class="finish-btn" hidden>Finalizar test</button>
     </section>
 
     <section id="results-section" class="card" hidden>
       <h2>Resultados</h2>
-      <div id="results-content"></div>
-      <button id="restart-btn" class="start-btn">Volver al inicio</button>
+      <p id="final-score"></p>
+      <div id="review"></div>
+      <div class="controls">
+        <button id="restart-btn" type="button">Volver a inicio</button>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <!-- Pie de página simplificado. Eliminamos el mensaje técnico para que no se muestre en la web. -->
-    <p></p>
-  </footer>
-  <!-- Cargamos primero el banco oficial de preguntas si existe -->
-  <script src="questions_official.js"></script>
-  <!-- Lógica principal de la aplicación -->
-  <script src="script.js"></script>
+  <footer></footer>
+
+  <script src="questions_official.js?v=9"></script>
+  <script src="script.js?v=9"></script>
 </body>
 </html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECLAB – Validador de preguntas (Admin)</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .admin-wrap { max-width: 1000px; margin: 1rem auto; padding: 0 1rem; }
+    .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .q-card { border: 1px solid #e5e7eb; border-radius: .5rem; padding: .75rem; }
+    .q-head { display:flex; gap:.5rem; align-items:baseline; justify-content:space-between; }
+    .q-answers label { display:block; padding:.25rem 0; cursor:pointer; }
+    .q-answers input { margin-right:.35rem; }
+    .q-meta { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+    .muted { color:#6b7280; font-size:.9rem; }
+    .danger { color:#dc2626; }
+    .success { color:#16a34a; }
+    .export-area { width:100%; min-height: 140px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .small { font-size: .9rem; }
+    .parser-help code { background:#eef2ff; padding:.1rem .3rem; border-radius:.25rem; }
+    .sticky-actions { position: sticky; top: .5rem; background: #fff; padding: .5rem; border: 1px solid #e5e7eb; border-radius:.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TECLAB · Validador de preguntas</h1>
+    <nav class="nav-actions">
+      <a class="nav-btn" href="index.html">Inicio</a>
+      <a class="nav-btn" href="temario_tema1.html">Tema 1</a>
+    </nav>
+  </header>
+
+  <main class="admin-wrap">
+    <section class="card parser-help">
+      <h2>1) Pega aquí las preguntas del PDF (formato simple)</h2>
+      <p class="small">
+        Copia/pega cada bloque así (una línea por opción; separa preguntas con una línea en blanco):<br/>
+        <code>1. Texto de la pregunta…</code><br/>
+        <code>A) Opción A</code><br/>
+        <code>B) Opción B</code><br/>
+        <code>C) Opción C</code><br/>
+        <code>D) Opción D</code>
+      </p>
+      <textarea id="raw-input" rows="12" class="export-area" placeholder="Pega aquí 1–49 desde tu PDF..."></textarea>
+      <div class="row">
+        <label for="default-subtheme">Subtema por defecto</label>
+        <select id="default-subtheme">
+          <option>1 – Calibración y control de calidad</option>
+          <option>2 – Estadística diagnóstica y rendimiento de las pruebas</option>
+          <option>3 – Intervalos de referencia y variabilidad biológica</option>
+          <option>4 – Unidades, concentraciones y diluciones</option>
+          <option>5 – Preanalítica (muestras, suero y plasma)</option>
+        </select>
+      </div>
+      <div class="controls">
+        <button id="parse-btn" class="primary" type="button">Importar preguntas</button>
+        <button id="clear-btn" type="button">Vaciar</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2) Marca la opción correcta (según el subrayado amarillo del PDF)</h2>
+      <p class="muted small">Pulsa sobre la opción correcta. Puedes ajustar el subtema en cada tarjeta si lo necesitas.</p>
+      <div class="twocol">
+        <div id="q-list"></div>
+        <div class="sticky-actions">
+          <div class="row">
+            <button id="mark-all-a" type="button">Marcar todas A</button>
+            <button id="mark-all-b" type="button">Todas B</button>
+            <button id="mark-all-c" type="button">Todas C</button>
+            <button id="mark-all-d" type="button">Todas D</button>
+          </div>
+          <p class="muted small">Atajo rápido si predominan ciertas letras; luego ajustas individualmente.</p>
+          <hr/>
+          <div class="row">
+            <button id="check-completeness" type="button">Comprobar que no falta ninguna</button>
+            <div id="check-msg" class="muted"></div>
+          </div>
+          <hr/>
+          <div class="row">
+            <button id="export-btn" class="primary" type="button">3) Exportar questions_official.js</button>
+            <textarea id="export-txt" class="export-area" readonly></textarea>
+            <button id="download-btn" type="button">Descargar archivo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script>
+    const sanitize = (s)=>s.replace(/[\u0000-\u001F]/g, ' ').replace(/[\u2028\u2029]/g,' ');
+
+    function parseRaw(raw, defaultSub){
+      const blocks = raw.split(/\n\s*\n+/).map(b=>b.trim()).filter(Boolean);
+      const q = [];
+      const qRe = /^(\d+)[\).\-\s]+(.+)$/s;
+      for (const b of blocks){
+        const lines = b.split(/\n/).map(l=>l.trim()).filter(Boolean);
+        if (lines.length < 5) continue; // 1 pregunta + 4 opciones
+        const m = lines[0].match(qRe);
+        const text = m ? m[2].trim() : lines[0];
+        const A = lines.find(l=>/^A\)/i.test(l))?.replace(/^A\)\s*/i,'') || lines[1];
+        const B = lines.find(l=>/^B\)/i.test(l))?.replace(/^B\)\s*/i,'') || lines[2];
+        const C = lines.find(l=>/^C\)/i.test(l))?.replace(/^C\)\s*/i,'') || lines[3];
+        const D = lines.find(l=>/^D\)/i.test(l))?.replace(/^D\)\s*/i,'') || lines[4];
+        q.push({
+          id: q.length+1,
+          theme: "Tema 1",
+          subtheme: defaultSub,
+          text: sanitize(text),
+          answers: [sanitize(A), sanitize(B), sanitize(C), sanitize(D)],
+          correct: null,
+          explanation: ""
+        });
+      }
+      return q;
+    }
+
+    let imported = [];
+
+    function renderList(){
+      const box = document.getElementById('q-list');
+      box.innerHTML = "";
+      imported.forEach((item, idx)=>{
+        const wrap = document.createElement('div');
+        wrap.className = "q-card";
+        const head = document.createElement('div');
+        head.className = "q-head";
+        const h = document.createElement('h3');
+        h.textContent = (idx+1)+". "+item.text;
+        head.appendChild(h);
+        const meta = document.createElement('div');
+        meta.className = "q-meta";
+        const sel = document.createElement('select');
+        ["1 – Calibración y control de calidad",
+         "2 – Estadística diagnóstica y rendimiento de las pruebas",
+         "3 – Intervalos de referencia y variabilidad biológica",
+         "4 – Unidades, concentraciones y diluciones",
+         "5 – Preanalítica (muestras, suero y plasma)"].forEach(opt=>{
+          const o = document.createElement('option');
+          o.textContent = opt; o.value = opt;
+          if (opt === item.subtheme) o.selected = true;
+          sel.appendChild(o);
+        });
+        sel.addEventListener('change', ()=>{ item.subtheme = sel.value; });
+        meta.appendChild(sel);
+        const flag = document.createElement('span');
+        flag.className = "muted";
+        flag.textContent = item.correct===null ? "Sin marcar" : "Correcta: "+ "ABCD"[item.correct];
+        meta.appendChild(flag);
+        head.appendChild(meta);
+        wrap.appendChild(head);
+
+        const answers = document.createElement('div');
+        answers.className = "q-answers";
+        item.answers.forEach((ans, i)=>{
+          const lab = document.createElement('label');
+          const r = document.createElement('input'); r.type = "radio"; r.name = "q_"+idx; r.value = i;
+          if (item.correct === i) r.checked = true;
+          r.addEventListener('change', ()=>{
+            item.correct = i;
+            flag.textContent = "Correcta: "+ "ABCD"[i];
+            flag.className = "success";
+          });
+          lab.appendChild(r);
+          lab.appendChild(document.createTextNode(" "+"ABCD"[i]+") "+ans));
+          answers.appendChild(lab);
+        });
+        wrap.appendChild(answers);
+        box.appendChild(wrap);
+      });
+    }
+
+    document.getElementById('parse-btn').addEventListener('click', ()=>{
+      const raw = document.getElementById('raw-input').value.trim();
+      if (!raw) { alert("Pega primero las preguntas desde el PDF"); return; }
+      const def = document.getElementById('default-subtheme').value;
+      imported = parseRaw(raw, def);
+      renderList();
+      document.getElementById('check-msg').textContent = imported.length ? ("Importadas: "+imported.length) : "No se detectaron preguntas.";
+    });
+    document.getElementById('clear-btn').addEventListener('click', ()=>{
+      document.getElementById('raw-input').value = "";
+      imported = []; renderList();
+      document.getElementById('check-msg').textContent = "";
+      document.getElementById('export-txt').value = "";
+    });
+
+    // botones masivos A/B/C/D
+    ["a","b","c","d"].forEach((ch, idx)=>{
+      document.getElementById('mark-all-'+ch).addEventListener('click',()=>{
+        imported.forEach(it=> it.correct = idx);
+        renderList();
+      });
+    });
+
+    document.getElementById('check-completeness').addEventListener('click',()=>{
+      const missing = imported.filter(it=> it.correct===null).length;
+      const msg = document.getElementById('check-msg');
+      if (missing===0) { msg.textContent = "Todo OK: todas las preguntas tienen respuesta correcta marcada."; msg.className="success"; }
+      else { msg.textContent = "Faltan por marcar "+missing+" preguntas."; msg.className="danger"; }
+    });
+
+    function exportJS(){
+      if (!imported.length){ alert("No hay preguntas importadas."); return ""; }
+      const missing = imported.filter(it=> it.correct===null).length;
+      if (missing>0 && !confirm("Aún faltan "+missing+" preguntas por marcar. ¿Exportar igualmente?")) return "";
+
+      // Limpieza: asegurar enteros y strings seguros
+      const cleaned = imported.map((q, i)=> ({
+        id: i+1,
+        theme: "Tema 1",
+        subtheme: q.subtheme,
+        text: q.text,
+        answers: q.answers,
+        correct: (q.correct==null ? -1 : Number(q.correct)),
+        explanation: q.explanation || ""
+      }));
+
+      const js = "const OFFICIAL_QUESTIONS = " + JSON.stringify(cleaned, None, 2) + ";
+";
+      return js;
+    }
+
+    document.getElementById('export-btn').addEventListener('click',()=>{
+      const js = exportJS();
+      if (js) document.getElementById('export-txt').value = js;
+    });
+
+    document.getElementById('download-btn').addEventListener('click',()=>{
+      const js = exportJS();
+      if (!js) return;
+      const blob = new Blob([js], {type: "text/javascript"});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = "questions_official.js";
+      a.click();
+      setTimeout(()=> URL.revokeObjectURL(a.href), 1000);
+    });
+  </script>
+</body>
+</html>
