@@ -3,102 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Temario Tema 1 – Conceptos básicos</title>
+  <title>TECLAB – Temario Tema 1</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
   <header>
-    <h1>Temario Tema 1 – Conceptos básicos</h1>
-    <p class="intro">
-      En este apartado se recogen todos los contenidos marcados con una
-      estrella en el material del Tema 1. Cada bloque se presenta de forma
-      esquemática para facilitar el repaso. Utiliza estos resúmenes para
-      orientar tu estudio y, cuando te sientas preparado/a, vuelve a la
-      página principal para practicar con los test correspondientes.
-    </p>
-    <nav>
-      <!--
-        Añadimos un estilo en línea para forzar que el enlace sea visible
-        sobre el fondo azul oscuro. Aunque el color también se define en
-        style.css, este estilo en línea garantiza la visibilidad en
-        navegadores que puedan aplicar estilos predeterminados al estado
-        visitado.
-      -->
-      <a class="nav-link" href="index.html" style="color: #ffffff;">Volver al inicio</a>
+    <h1>Tema 1 – Conceptos básicos</h1>
+    <nav class="nav-actions">
+      <a class="nav-btn" href="index.html">Inicio</a>
     </nav>
   </header>
+
   <main>
     <section class="card">
-      <h2>Subtema 1 – Calibración y control de calidad</h2>
+      <h2>1 ★ Calibración y control de calidad</h2>
+      
       <ul>
-        <li><strong>Control de calidad interno:</strong> utiliza controles con valores conocidos para monitorizar la exactitud y precisión; abarca toda la curva de calibrado, usa controles independientes y se realiza periódicamente.</li>
-        <li><strong>Control de calidad externo:</strong> comparaciones inter‑laboratorio con valores desconocidos para evaluar la dispersión, seleccionar nuevas metodologías y comprobar el programa interno.</li>
-        <li><strong>Error aleatorio (imprecisión):</strong> se detecta por la dispersión de los resultados; se cuantifica mediante la desviación estándar o el coeficiente de variación.</li>
-        <li><strong>Error sistemático (sesgo):</strong> causa desviaciones constantes respecto al valor verdadero; se corrige calibrando y se calcula como desviación absoluta o relativa.</li>
-        <li><strong>Error total:</strong> suma de la variabilidad aleatoria y del sesgo.</li>
+        <li><strong>Control de calidad interno (dentro del lab):</strong> usamos <em>muestras de control</em> con valores ya conocidos cada día o turno. Si el resultado del analizador se sale de lo esperado, algo falla. Deben cubrir <em>toda la curva de calibración</em> y ser independientes del calibrador.</li>
+        <li><strong>Control de calidad externo (compararnos con otros):</strong> enviamos nuestros resultados de materiales <em>desconocidos</em> a un organismo externo y los comparan con otros laboratorios. Sirve para ver si somos <em>precisos</em> y si nuestro método está alineado.</li>
+        <li><strong>Error aleatorio = imprecisión:</strong> los resultados “bailan” alrededor del valor. Se mide con <em>desviación estándar</em> o <em>coeficiente de variación (CV)</em>. No indica que estemos “desviados”, solo que hay dispersión.</li>
+        <li><strong>Error sistemático = sesgo:</strong> medimos siempre por encima o por debajo del valor real (somos precisos pero inexactos). Se corrige <em>calibrando</em> el método. El sesgo es la diferencia entre nuestro valor y el verdadero.</li>
+        <li><strong>Error total:</strong> es lo que realmente importa al paciente: <em>sesgo + imprecisión</em>. Resume el efecto combinado de ambos errores.</li>
       </ul>
-    </section>
-    <section class="card">
-      <h2>Subtema 2 – Estadística diagnóstica y rendimiento de las pruebas</h2>
-      <ul>
-        <li><strong>Sensibilidad:</strong> probabilidad de que la prueba detecte la enfermedad en sujetos enfermos; se calcula como VP/(VP + FN).</li>
-        <li><strong>Especificidad:</strong> probabilidad de identificar correctamente a los sujetos sanos; se calcula como VN/(VN + FP).</li>
-        <li><strong>Valores predictivos:</strong> el valor predictivo positivo (VPP) y negativo (VPN) varían con la prevalencia; un aumento de prevalencia incrementa el VPP y disminuye el VPN. Para cribado se prefieren pruebas muy sensibles (pocos falsos negativos) y para confirmación pruebas muy específicas (pocos falsos positivos).</li>
-        <li><strong>Regla para interpretar SE/VPP/VPN:</strong> identifica primero lo que se conoce (estado de salud o resultado de la prueba). Si conoces el estado (sano/enfermo), aplica la regla SE (sano → especificidad, enfermo → sensibilidad). Si conoces el resultado (positivo/negativo), aplica VPP o VPN respectivamente.</li>
-        <li><strong>Curvas ROC:</strong> relacionan la sensibilidad frente a (1 − especificidad). El área bajo la curva (AUC) mide la capacidad discriminatoria; cuanto más cerca de la esquina superior izquierda, mayor AUC y mejor rendimiento de la prueba.</li>
-        <li><strong>Categorización de la AUC:</strong> 0,5 – 0,6 test malo; 0,6 – 0,75 test regular; 0,75 – 0,9 test bueno; 0,9 – 0,97 test muy bueno.</li>
-      </ul>
-    </section>
-    <section class="card">
-      <h2>Subtema 3 – Intervalos de referencia y variabilidad biológica</h2>
-      <ul>
-        <li><strong>Distribución normal:</strong> el 68,3 % de las observaciones se encuentra entre la media ± 1 DE, el 95,5 % entre la media ± 2 DE y el 99,7 % entre la media ± 3 DE.</li>
-        <li><strong>Valor de referencia de un cambio (VRC) o delta check:</strong> diferencia entre dos resultados consecutivos de un mismo individuo que indica un cambio clínicamente relevante, tras controlar la variabilidad preanalítica y analítica.</li>
-      </ul>
-    </section>
-    <section class="card">
-      <h2>Subtema 4 – Unidades, concentraciones y diluciones</h2>
-      <ul>
-        <li><strong>Molaridad (M):</strong> moles de soluto por litro de disolución.</li>
-        <li><strong>Molalidad (m):</strong> moles de soluto por kilogramo de disolvente.</li>
-        <li><strong>Relación entre normalidad y molaridad:</strong> para un ácido N = M × número de protones; para una base N = M × número de grupos OH–.</li>
-        <li><strong>Diluciones:</strong> para preparar una disolución menos concentrada a partir de otra, usa la fórmula Vi × Ci = Vf × Cf (volumen inicial por concentración inicial igual al volumen final por concentración final).</li>
-        <li><strong>Consejos para resolver preguntas de diluciones:</strong> asegúrate de usar las mismas unidades y recuerda que puedes multiplicar o dividir numerador y denominador de la fracción para expresar el factor de dilución con numerador 1.</li>
-      </ul>
-    </section>
-    <section class="card">
-      <h2>Subtema 5 – Preanalítica (muestras, suero y plasma)</h2>
-      <ul>
-        <li><strong>Diferencia entre suero y plasma:</strong> el suero se obtiene sin anticoagulante, carece de fibrinógeno y requiere esperar a que coagule antes de centrifugar; el plasma se obtiene con anticoagulante, contiene todos los factores de coagulación y se puede centrifugar inmediatamente.</li>
-      </ul>
+
     </section>
 
     <section class="card">
-      <h2>Consulta el material original y resuelve dudas</h2>
-      <p>
-        Para profundizar en los conceptos del Tema 1 puedes descargar el
-        documento completo en formato PDF. Si tienes dudas puntuales sobre
-        el contenido, puedes utilizar un asistente de IA (como ChatGPT)
-        para formular tus preguntas. Ten en cuenta que necesitarás una
-        conexión a Internet para acceder al chat.
-      </p>
-      <p>
-        <!-- Enlace al PDF del Tema 1 dentro del repositorio -->
-        <a href="tema1.pdf" download>Descargar PDF del Tema 1</a>
-      </p>
-      <p>
-        <!-- Enlace a ChatGPT; abrirá una nueva pestaña en el navegador -->
-        <a href="https://chat.openai.com" target="_blank">Abrir ChatGPT</a>
-      </p>
+      <h2>2 ★ Estadística diagnóstica y rendimiento de las pruebas</h2>
+      
+      <ul>
+        <li><strong>Sensibilidad (SE):</strong> de los que <em>están enfermos</em>, ¿a cuántos detecta la prueba? Fórmula: VP/(VP+FN). Alta SE = pocos falsos negativos (buena para <em>cribado</em>).</li>
+        <li><strong>Especificidad (SP):</strong> de los que <em>están sanos</em>, ¿a cuántos identifica como sanos? Fórmula: VN/(VN+FP). Alta SP = pocos falsos positivos (buena para <em>confirmar</em>).</li>
+        <li><strong>Valores predictivos (VPP/VPN):</strong> dependen de la <em>prevalencia</em>. Si la enfermedad es más frecuente, sube el <em>VPP</em> y baja el <em>VPN</em>. Regla rápida: resultado positivo → piensa en <em>VPP</em>; resultado negativo → piensa en <em>VPN</em>.</li>
+        <li><strong>Curva ROC y AUC:</strong> la ROC enfrenta Sensibilidad vs (1−Especificidad) a distintos puntos de corte. <em>Cuanto más cerca de la esquina superior izquierda</em>, mejor. AUC ≈ 0,5 (sin valor), 0,6–0,75 (regular), 0,75–0,9 (bueno), &gt;0,9 (muy bueno).</li>
+      </ul>
+
+    </section>
+
+    <section class="card">
+      <h2>3 ★ Intervalos de referencia y variabilidad biológica</h2>
+      
+      <ul>
+        <li><strong>Distribución normal (campana de Gauss):</strong> aprox. <em>68,3%</em> de valores están entre ±1 DE, <em>95,5%</em> entre ±2 DE y <em>99,7%</em> entre ±3 DE sobre la media.</li>
+        <li><strong>Valor de referencia de cambio (VRC):</strong> sirve para decidir si dos resultados <em>de la misma persona</em> han cambiado de verdad (más allá de la variación analítica y biológica). Si la diferencia supera el VRC, el cambio es clínicamente significativo.</li>
+      </ul>
+
+    </section>
+
+    <section class="card">
+      <h2>4 ★ Unidades, concentraciones y diluciones</h2>
+      
+      <ul>
+        <li><strong>Molaridad (M) vs Molalidad (m):</strong> M = moles por <em>litro de disolución</em>; m = moles por <em>kg de disolvente</em>.</li>
+        <li><strong>Normalidad (N):</strong> relacionada con los <em>equivalentes</em> de reacción: N = M × (nº de H⁺ en ácidos o de OH⁻ en bases).</li>
+        <li><strong>Diluciones (fórmula clave):</strong> <em>Vi·Ci = Vf·Cf</em>. Truco: una dilución 1/5 = 1 parte de soluto + 4 de disolvente (total 5). Asegúrate de usar <em>las mismas unidades</em> en ambos lados.</li>
+      </ul>
+
+    </section>
+
+    <section class="card">
+      <h2>5 ★ Preanalítica (muestras, suero y plasma)</h2>
+      
+      <ul>
+        <li><strong>Suero:</strong> tubo sin anticoagulante. Hay que <em>esperar la coagulación</em> antes de centrifugar (no queda fibrinógeno). Tiempo de espera máximo habitual: hasta 120 min (según protocolo).</li>
+        <li><strong>Plasma:</strong> tubo con anticoagulante. <em>No necesita coagular</em>: se puede centrifugar de inmediato. Contiene fibrinógeno y factores de coagulación.</li>
+      </ul>
+
     </section>
   </main>
-  <footer>
-    <p>
-      Esta página resume los contenidos señalados con una estrella en el tema
-      sobre conceptos básicos. Para practicar, vuelve al inicio y escoge el
-      subtema correspondiente.
-    </p>
-  </footer>
+
+  <footer><p></p></footer>
+<a href="index.html" class="nav-btn sticky-home">Inicio</a>
 </body>
 </html>
