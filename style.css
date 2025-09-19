@@ -180,6 +180,54 @@ header nav a {
   text-decoration: underline;
 }
 
+/*
+ * Estilos para las acciones de navegación en el encabezado. Utilizamos un
+ * contenedor flex para alinear los botones horizontalmente y añadir un
+ * pequeño espacio entre ellos. Los botones adoptan el mismo estilo
+ * base que los botones principales para mantener la coherencia visual.
+ */
+.nav-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.nav-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/*
+ * Botón para finalizar el test de forma anticipada. Se asemeja a los
+ * botones principales pero utiliza un color más llamativo para indicar
+ * que la acción es diferente (terminar el examen). Se oculta por
+ * defecto y se muestra cuando el usuario está realizando un test.
+ */
+.finish-btn {
+  padding: 0.6rem 1rem;
+  background-color: #dc2626;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.finish-btn:hover {
+  background-color: #b91c1c;
+}
+
 header nav a:hover {
   color: #dbeafe;
 }

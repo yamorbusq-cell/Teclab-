@@ -923,6 +923,10 @@ function showResults() {
   document.getElementById("quiz-section").hidden = true;
   document.getElementById("config-section").hidden = true;
   document.getElementById("results-section").hidden = false;
+
+  // Ocultar el botón de finalizar prueba cuando se muestran los resultados
+  const finishBtn = document.getElementById("finish-btn");
+  if (finishBtn) finishBtn.hidden = true;
 }
 
 /**
@@ -936,6 +940,51 @@ function resetApp() {
   document.getElementById("config-section").hidden = false;
   document.getElementById("quiz-section").hidden = true;
   document.getElementById("results-section").hidden = true;
+
+  // Ocultar el botón de finalizar prueba al reiniciar
+  const finishBtn = document.getElementById("finish-btn");
+  if (finishBtn) finishBtn.hidden = true;
+}
+
+/**
+ * Finaliza el test de forma anticipada. Registra la respuesta actual (si existe)
+ * y marca el resto de preguntas como no contestadas. A continuación muestra
+ * los resultados. Este método permite al usuario salir del test en cualquier
+ * momento.
+ */
+function finishTestEarly() {
+  // No hay test en curso
+  if (!currentTest || currentTest.length === 0) return;
+
+  // Sólo proceder si aún no se han mostrado los resultados
+  if (document.getElementById("results-section").hidden === false) return;
+
+  // Registrar la respuesta de la pregunta actual si no se ha registrado aún
+  if (currentIndex < currentTest.length) {
+    const question = currentTest[currentIndex];
+    let answerIndex = -1;
+    const selected = document.querySelector("input[name='answer']:checked");
+    if (selected) {
+      answerIndex = parseInt(selected.value, 10);
+    }
+    if (mode === "immediate") {
+      userAnswers.push({ question, answerIndex });
+      if (answerIndex >= 0 && question.answers[answerIndex] && question.answers[answerIndex].correct) {
+        correctCount++;
+      }
+    } else if (mode === "deferred") {
+      userAnswers.push({ question, answerIndex });
+    }
+
+    // Añadir como no respondidas las preguntas restantes
+    for (let i = currentIndex + 1; i < currentTest.length; i++) {
+      userAnswers.push({ question: currentTest[i], answerIndex: -1 });
+    }
+  }
+
+  // Ajustar el índice para evitar que renderQuestion avance
+  currentIndex = currentTest.length;
+  showResults();
 }
 
 /**
@@ -1044,10 +1093,39 @@ function init() {
     document.getElementById("quiz-title").textContent = title;
 
     renderQuestion();
+
+    // Mostrar el botón para finalizar el test anticipadamente
+    const finishBtn = document.getElementById("finish-btn");
+    if (finishBtn) {
+      finishBtn.hidden = false;
+    }
   });
 
   // Manejar botón de reinicio
   document.getElementById("restart-btn").addEventListener("click", resetApp);
+
+  // Controlar la navegación desde el encabezado
+  // Botón 'Inicio' devuelve a la configuración inicial borrando cualquier test en curso
+  const inicioBtn = document.getElementById("nav-inicio-btn");
+  if (inicioBtn) {
+    inicioBtn.addEventListener("click", () => {
+      resetApp();
+    });
+  }
+
+  // Botón 'Tema 1' lleva al usuario al temario del Tema 1
+  const tema1Btn = document.getElementById("nav-tema1-btn");
+  if (tema1Btn) {
+    tema1Btn.addEventListener("click", () => {
+      window.location.href = "temario_tema1.html";
+    });
+  }
+
+  // Botón para finalizar el test de forma anticipada
+  const finishBtn = document.getElementById("finish-btn");
+  if (finishBtn) {
+    finishBtn.addEventListener("click", finishTestEarly);
+  }
 }
 
 // Ejecutar init cuando el DOM esté listo

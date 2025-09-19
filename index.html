@@ -3,28 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Practicando Oposiciones - Laboratorio Clínico</title>
+  <title>TECLAB – Oposiciones Laboratorio Clínico</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   
   <header>
-    <h1>Practicando Oposiciones<br />Laboratorio Clínico y Biomédico</h1>
+    <!-- Encabezado principal de la aplicación -->
+    <h1>TECLAB</h1>
     <p class="intro">
       Esta es una versión de borrador para uso personal. Aquí podrás practicar
       preguntas por tema o de forma aleatoria y elegir cuándo deseas ver las
       respuestas.
     </p>
-    <nav>
-      <!-- Enlace al temario del Tema 1 -->
-      <!--
-        Añadimos un estilo en línea para forzar que el enlace sea visible
-        sobre el fondo azul oscuro. Aunque el color también se define en
-        style.css, este estilo en línea garantiza la visibilidad en
-        navegadores que puedan aplicar estilos predeterminados al estado
-        visitado.
-      -->
-      <a class="nav-link" href="temario_tema1.html" style="color: #ffffff;">Ver temario del Tema 1</a>
+    <nav class="nav-actions">
+      <!-- Botón para volver al inicio -->
+      <button id="nav-inicio-btn" class="nav-btn">Inicio</button>
+      <!-- Botón para acceder al temario del Tema 1 -->
+      <button id="nav-tema1-btn" class="nav-btn">Tema 1</button>
     </nav>
   </header>
   <main>
@@ -85,6 +81,9 @@
       <div id="controls" class="controls">
         <!-- Los botones se añaden dinámicamente según el modo -->
       </div>
+
+      <!-- Botón para finalizar el test de forma anticipada y ver los resultados -->
+      <button id="finish-btn" class="finish-btn" hidden>Finalizar test</button>
     </section>
 
     <section id="results-section" class="card" hidden>
@@ -95,12 +94,8 @@
   </main>
 
   <footer>
-    <p>
-      Puedes modificar las preguntas editando el archivo <code>script.js</code>
-      o añadiendo un nuevo fichero de preguntas. En esta versión el banco de
-      preguntas incluye las cuestiones del Tema&nbsp;1 tomadas de los tests
-      oficiales.
-    </p>
+    <!-- Pie de página simplificado. Eliminamos el mensaje técnico para que no se muestre en la web. -->
+    <p></p>
   </footer>
   <!-- Cargamos primero el banco oficial de preguntas si existe -->
   <script src="questions_official.js"></script>
