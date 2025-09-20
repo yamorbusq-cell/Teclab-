@@ -189,11 +189,7 @@ function populateThemesAndSubthemes(){
   };
 
   themeSel.addEventListener("change", loadSubs);
-  subSel.addEventListener("change", ()=>{
-    const orderFs = document.getElementById("order-fieldset");
-    if (orderFs) orderFs.style.display = (subSel.value === "Todos") ? "" : "none";
-  });
-
+  subSel.addEventListener("change", loadSubs);
   loadSubs(); // inicial
 }
 
@@ -232,8 +228,6 @@ function init(){
     if (mode === "immediate") renderImmediateControls(); else renderExamControls();
   });
 }
-document.addEventListener("DOMContentLoaded", init);
-
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function init(){
   populateThemesAndSubthemes();
 });
