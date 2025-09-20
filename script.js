@@ -219,7 +219,7 @@ function init(){
     document.getElementById("results-section").hidden = true;
 
     // Preparar UI
-    document.getElementById("quiz-title").textContent = `${mode === "immediate" ? "Test (modo inmediato)" : "Test (modo examen)"}`;
+    document.getElementById("quiz-title").textContent = `${mode === "immediate" ? "Test - modo inmediato" : "Test - modo examen"}`;
     document.getElementById("quiz-section").hidden = false;
     const fbtn = document.getElementById("finish-btn"); if (fbtn) fbtn.hidden = false;
 
