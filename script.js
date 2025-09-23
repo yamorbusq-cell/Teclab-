@@ -71,6 +71,7 @@ function renderQuestion(){
   showFeedback("");
 }
 
+
 function renderImmediateControls(){
   const controls = document.getElementById("controls");
   controls.innerHTML = "";
@@ -78,15 +79,50 @@ function renderImmediateControls(){
   nextLink.id = "next-link";
   nextLink.href = "#";
   nextLink.className = "link-next";
-  nextLink.textContent = "Siguiente →";
+  nextLink.textContent = "Corregir →";
   controls.appendChild(nextLink);
+
+  let graded = false;
 
   nextLink.addEventListener("click", (e)=>{
     e.preventDefault();
     const selected = document.querySelector('input[name="answer"]:checked');
     if(!selected){ showFeedback("Selecciona una opción antes de continuar.", "warn"); return; }
 
+    const q = currentTest[currentIndex];
     const chosen = parseInt(selected.value,10);
+
+    if (!graded){
+      // Primera pulsación: corregir y mostrar feedback (no avanzar)
+      userAnswers[currentIndex] = chosen;
+      const ok = chosen === q.correct;
+      if (ok) correctCount++;
+
+      const correctText = (typeof q.correct === "number" && q.correct >= 0 && q.answers[q.correct])
+        ? q.answers[q.correct]
+        : "";
+      const exp = (q.explanation && q.explanation.trim()) ? q.explanation.trim() : "";
+
+      let msg = ok ? "✅ Correcto." : "❌ Incorrecto.";
+      if (correctText) msg += " Correcta: " + correctText;
+      if (exp) msg += " · " + exp;
+      showFeedback(msg, ok ? "ok" : "bad");
+
+      // Deshabilitar opciones para evitar cambios tras corregir
+      document.querySelectorAll('input[name="answer"]').forEach(inp => inp.disabled = true);
+
+      graded = true;
+      nextLink.textContent = "Siguiente →";
+      return;
+    }
+
+    // Segunda pulsación: pasar a la siguiente pregunta
+    currentIndex++;
+    if(currentIndex >= currentTest.length){ showResults(); }
+    else { renderQuestion(); renderImmediateControls(); }
+  });
+}
+const chosen = parseInt(selected.value,10);
     userAnswers[currentIndex] = chosen;
     const q = currentTest[currentIndex];
     const ok = chosen === q.correct;
