@@ -54,6 +54,64 @@ function showFeedback(msg, cls){
   box.className = "feedback " + (cls||"");
   box.textContent = msg || "";
 }
+// === Explicación breve automática (si no hay q.explanation) ===
+function getAutoExplanation(q){
+  const txt = (q.text || "").toLowerCase() + " " + (q.answers||[]).join(" ").toLowerCase();
+  const st = (q.subtheme || "").toLowerCase();
+
+  // Utilidades
+  const has = (re)=> re.test(txt);
+
+  // Por subtema principal
+  if (st.includes("calibración") || st.includes("control de calidad")){
+    if (has(/\b(cv|desviaci[oó]n est[aá]ndar|precisi[oó]n|imprecisi[oó]n|sesgo)\b/)){
+      return "La corrección se basa en conceptos de calidad: la imprecisión se mide con DE/CV y el sesgo refleja error sistemático; el control de calidad detecta desviaciones.";
+    }
+    return "En control/calibración importan precisión (DE/CV), sesgo y verificación con controles y trazabilidad a patrones.";
+  }
+  if (st.includes("estadística") || st.includes("rendimiento")){
+    if (has(/\b(sensibilidad|especificidad|vpp|vpn|roc|prevalenc|fals[oa]s?|vp|vn)\b/)){
+      return "Recuerda: SE = VP/(VP+FN), SP = VN/(VN+FP); al subir la prevalencia aumenta el VPP y disminuye el VPN. La ROC compara SE frente a 1−SP.";
+    }
+    return "Rendimiento diagnóstico: sensibilidad y especificidad definen la capacidad del test; los valores predictivos dependen de la prevalencia.";
+  }
+  if (st.includes("intervalos de referencia") || st.includes("variabilidad")){
+    return "Intervalos de referencia: suelen derivar de población sana (percentiles); el VRC combina variabilidad analítica y biológica para detectar cambios reales.";
+  }
+  if (st.includes("unidades") || st.includes("diluciones")){
+    if (has(/\bc1.*v1.*c2.*v2\b/)){
+      return "Usa la relación C1·V1 = C2·V2 para calcular diluciones y preparar soluciones con la concentración deseada.";
+    }
+    if (has(/\bmol|molar|molal|normalidad|equivalente|osmolar|osmolal\b/)){
+      return "Repasa unidades: molaridad (mol/L), molalidad (mol/kg), normalidad (equivalentes/L) y relaciones de equivalentes según la reacción.";
+    }
+    return "En cálculos de soluciones aplicar proporciones y C1·V1=C2·V2; cuidado con unidades y factores de dilución.";
+  }
+  if (st.includes("preanalítica") || st.includes("muestras")){
+    if (has(/\bedta|heparina|citrato|tubo|rechazo|hem[oó]lisis|lipemia|ictericia|ayuno|transporte\b/)){
+      return "Preanalítica: identifica y prepara correctamente la muestra (tubo/anticoagulante adecuado), evita interferencias (hemólisis, lipemia) y sigue criterios de rechazo.";
+    }
+    return "La fase preanalítica (identificación, contenedor, transporte y estabilidad) condiciona la validez del resultado analítico.";
+  }
+
+  // Por palabras clave si subtema no ayuda
+  if (has(/\b(roc|vpp|vpn|sensibilidad|especificidad)\b/)){
+    return "SE/SP miden capacidad intrínseca; VPP/VPN dependen de la prevalencia. La ROC muestra el rendimiento global.";
+  }
+  if (has(/\bc1.*v1.*c2.*v2|diluci[oó]n|molar|normalidad|equivalente\b/)){
+    return "Para diluciones y concentraciones aplica C1·V1=C2·V2 y cuida las unidades.";
+  }
+  if (has(/\b(edta|heparina|citrato|tubo|rechazo|hem[oó]lisis|preanal[ií]tica)\b/)){
+    return "Selecciona el tubo/anticoagulante correcto y respeta la preanalítica para evitar errores de resultado.";
+  }
+  if (has(/\b(de|cv|precisi[oó]n|sesgo|calibr)\b/)){
+    return "Imprecisión → DE/CV; sesgo → diferencia sistemática; controles y calibración aseguran calidad.";
+  }
+
+  // Fallback neutro
+  return "";
+}
+
 
 // === Render ===
 function renderQuestion(){
@@ -93,7 +151,6 @@ function renderImmediateControls(){
     const chosen = parseInt(selected.value,10);
 
     if (!graded){
-      // Primera pulsación: corregir y mostrar feedback (no avanzar)
       userAnswers[currentIndex] = chosen;
       const ok = chosen === q.correct;
       if (ok) correctCount++;
@@ -101,14 +158,14 @@ function renderImmediateControls(){
       const correctText = (typeof q.correct === "number" && q.correct >= 0 && q.answers[q.correct])
         ? q.answers[q.correct]
         : "";
-      const exp = (q.explanation && q.explanation.trim()) ? q.explanation.trim() : "";
+      let exp = (q.explanation && q.explanation.trim()) ? q.explanation.trim() : "";
+      if (!exp && typeof getAutoExplanation === "function"){ exp = getAutoExplanation(q); }
 
       let msg = ok ? "✅ Correcto." : "❌ Incorrecto.";
       if (correctText) msg += " Correcta: " + correctText;
       if (exp) msg += " · " + exp;
       showFeedback(msg, ok ? "ok" : "bad");
 
-      // Deshabilitar opciones para evitar cambios tras corregir
       document.querySelectorAll('input[name="answer"]').forEach(inp => inp.disabled = true);
 
       graded = true;
@@ -116,29 +173,14 @@ function renderImmediateControls(){
       return;
     }
 
-    // Segunda pulsación: pasar a la siguiente pregunta
     currentIndex++;
     if(currentIndex >= currentTest.length){ showResults(); }
     else { renderQuestion(); renderImmediateControls(); }
   });
 }
-const chosen = parseInt(selected.value,10);
-    userAnswers[currentIndex] = chosen;
-    const q = currentTest[currentIndex];
-    const ok = chosen === q.correct;
-    if(ok) correctCount++;
-    const exp = q.explanation || "Revisa el temario para más detalles.";
-    showFeedback((ok ? "✅ Correcto. " : "❌ Incorrecto. ")+exp, ok ? "ok" : "bad");
-
-    setTimeout(()=>{
-      currentIndex++;
-      if(currentIndex >= currentTest.length){ showResults(); }
-      else { renderQuestion(); renderImmediateControls(); }
-    }, 900);
-  });
-}
 
 function renderExamControls(){
+{
   const controls = document.getElementById("controls");
   controls.innerHTML = "";
   const nextBtn = document.createElement("button");
@@ -176,7 +218,7 @@ function showResults(){
     div.innerHTML = `<p><strong>${i+1}. ${q.text}</strong></p>
       <p>Tu respuesta: ${your>=0 ? q.answers[your] : "—"}</p>
       <p>Correcta: ${q.answers[q.correct]}</p>
-      ${exp ? `<p class="${ok?'feedback ok':'feedback bad'}">${ok?'✔':'✖'} ${exp}</p>` : ""}`;
+      ${(exp || getAutoExplanation(q)) ? `<p class="${ok?'feedback ok':'feedback bad'}">${ok?'✔':'✖'} ${(exp || getAutoExplanation(q))}</p>` : ""}`;
     review.appendChild(div);
   });
 }
@@ -230,7 +272,6 @@ function populateThemesAndSubthemes(){
 }
 
 function init(){
-  populateThemesAndSubthemes();
   document.getElementById("restart-btn").addEventListener("click", resetApp);
   const inicioBtn = document.getElementById("nav-inicio-btn");
   if (inicioBtn) inicioBtn.addEventListener("click", resetApp);
@@ -246,8 +287,7 @@ function init(){
     const n = Math.max(1, Math.min(100, parseInt(document.getElementById("num-questions").value || "10", 10)));
 
     // filtrar preguntas
-    const selectedTheme = document.getElementById("theme").value;
-    let pool = QUESTIONS.filter(q=>q.theme===selectedTheme);
+    let pool = QUESTIONS.filter(q=>q.theme==="Tema 1");
     if (subSel && subSel !== "Todos"){ pool = pool.filter(q=>q.subtheme===subSel); }
     pool = shuffle(pool).slice(0, n);
 
@@ -266,4 +306,6 @@ function init(){
     if (mode === "immediate") renderImmediateControls(); else renderExamControls();
   });
 }
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", function init(){
+  populateThemesAndSubthemes();
+});
