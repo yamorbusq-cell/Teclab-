@@ -309,3 +309,6 @@ function init(){
 document.addEventListener("DOMContentLoaded", function init(){
   populateThemesAndSubthemes();
 });
+
+
+document.addEventListener("DOMContentLoaded", init);
