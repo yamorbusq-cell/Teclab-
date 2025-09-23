@@ -220,7 +220,7 @@
         explanation: q.explanation || ""
       }));
 
-      const js = "const OFFICIAL_QUESTIONS = " + JSON.stringify(cleaned, None, 2) + ";
+      const js = "const OFFICIAL_QUESTIONS = " + JSON.stringify(cleaned, null, 2) + ";
 ";
       return js;
     }
