@@ -2,7 +2,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 1,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "En una recta de calibrado de concentraciones 1 - 2 - 5 - 10 - 25 - 50 ng/mL, los controles de calidad más adecuados serían:",
     "answers": [
       "3 - 20 - 40 ng/mL",
@@ -16,7 +16,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 2,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El objetivo de la calidad de un laboratorio es responsabilidad de:",
     "answers": [
       "El Jefe del laboratorio.",
@@ -30,7 +30,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 3,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Al conjunto de operaciones que se rea lizan a un instrumento analítico o equipo de medida para que nos garantice la exactitud de sus especificaciones, se denomina:",
     "answers": [
       "Control de calidad.",
@@ -44,7 +44,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 4,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Qué es lo primero que hay que hacer cuando llega la muestra al laboratorio?:",
     "answers": [
       "Comprobar que la petición médica, y el etiquetado de las muestras sean correctos.",
@@ -58,7 +58,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 5,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Al conjunto de normas Inter nacionales sobre calidad y su gestión, se le denomina:",
     "answers": [
       "Normas Políticas.",
@@ -72,7 +72,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 6,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El control de calidad externo consiste en:",
     "answers": [
       "Analizar unas muestras conociendo los resultados esperados.",
@@ -86,7 +86,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 7,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Una vez implementado un sistema de seguridad y certificado, las revisiones mínimas que se tendrían que hacer de dicho sistema serían:",
     "answers": [
       "Cada 6 meses.",
@@ -100,7 +100,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 8,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Se denominan Interferencias:",
     "answers": [
       "La aparición de errores no programados en la realización de una prueba.",
@@ -114,7 +114,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 9,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál sería el primer paso en la rec epción de muestras recibidas?",
     "answers": [
       "Confirmación de solicitud, muestra e identificación.",
@@ -128,7 +128,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 10,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Atendiendo a los motivos de rechazo d e muestras, ¿Cuál sería una causa?",
     "answers": [
       "Tubos sin etiquetas o mal identificados.",
@@ -142,7 +142,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 11,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En la organización en el trabajo de un laboratorio. ¿Qué crees que sería beneficioso para un buen funcionamiento?",
     "answers": [
       "Optimización de recursos.",
@@ -156,7 +156,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 12,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El servicio de recepción de muestras deberá rechazar una orina cuando:",
     "answers": [
       "Venga debidamente etiquetada e identificada.",
@@ -170,7 +170,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 13,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "A la recepción llegan muestras de toda índole, ¿Qué tipo de muestras en tubo no debería de centrifugar Carlos?",
     "answers": [
       "Tubo para hemograma.",
@@ -184,7 +184,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 14,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Para realizar el estudio basal bioquímico de sangre, el paciente debe estar en ayunas durante:",
     "answers": [
       "6 horas.",
@@ -198,7 +198,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 15,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "Una solución al 10% (p/v) contiene:",
     "answers": [
       "10 g del soluto + 100 ml del disolvente.",
@@ -212,7 +212,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 16,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La desviación típica o desviación estándar es un parámetro que indica:",
     "answers": [
       "La precisión de una serie de resultados analíticos.",
@@ -226,7 +226,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 17,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Las gráficas de control estadístico o gráficas de Levy - Jenning para los resultados analíticos son imprescindibles en el laboratorio cl ínico para conocer:",
     "answers": [
       "La exactitud y precisión entre pruebas de los resultados analíticos obtenidos con un mismo suero control.",
@@ -240,11 +240,10 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 18,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La forma más sencilla de registrar los datos de un control de calidad (QC) es a través de gráficos. Entre los no utilizados está:",
     "answers": [
       "Levy -Jennings.",
-      "",
       "es a través de gráficos. Entre los no utilizados está: A) Levy -Jennings. B) Bayes. C) Youden.",
       "CuSum."
     ],
@@ -254,7 +253,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 19,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La probabilidad de la existencia de un tumor entre un grupo de control heterogéneo, ante un resultado positivo de la prueba analítica, se denomina:",
     "answers": [
       "Valor predictivo positivo.",
@@ -268,7 +267,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 20,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué gráfica está especialmente diseñada para el control externo de calidad?",
     "answers": [
       "Gráfica de CuSum.",
@@ -282,7 +281,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 21,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de l as siguientes determinaciones se ve más afectada por la hemó lisis de la muestra?",
     "answers": [
       "Proteínas totales.",
@@ -296,7 +295,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 22,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De los siguientes tubos ¿cuál es el más adecuado para recoger una muestra de sangre en la que queremos determinar lactato?",
     "answers": [
       "De tapón rojo.",
@@ -310,7 +309,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 23,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "La existencia de una inexactitud constante se denomina:",
     "answers": [
       "Error aleatorio.",
@@ -324,7 +323,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 24,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El grado en que una medida obtenida se aprox ima al valor real se denomina:",
     "answers": [
       "Especificidad.",
@@ -338,7 +337,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 25,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Acreditación es:",
     "answers": [
       "Procedimiento mediante el cual un organismo independiente y reconocido garantiza por escrito que un producto, proceso o servicio cumple los re quisitos especificados .",
@@ -352,7 +351,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 26,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para cuantificar el tiempo de respuesta se pueden usar los parámetros estadísticos siguientes, EXCEPTO:",
     "answers": [
       "Percentiles (generalmente 90 o 95)",
@@ -366,7 +365,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 27,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es la finalidad del control de calidad externo?",
     "answers": [
       "Es la misma que la del control de calidad interno, pero realizado por personal ajeno al laboratorio .",
@@ -380,7 +379,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 28,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La especificida d de una prueba se calcula:",
     "answers": [
       "Verdaderos positivos divididos por total de pacientes con la enfermedad .",
@@ -394,7 +393,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 29,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Cuál de las siguientes afirmaciones es FALSA. Las curvas de ROC expresan:",
     "answers": [
       "El rendimiento diagnóstico de una magnitud bioquímica",
@@ -408,7 +407,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 30,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La validación técnica no incluye:",
     "answers": [
       "La comprobación de la realización del control de calidad int erno",
@@ -422,7 +421,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 31,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En un sistema de gestión de la calidad, el documento que especifica la política de calidad, los objetivos de la organización, la gestión del equipamiento, fungibles, política medio -ambiental, etc que debe de hacerse en el laboratorio, se conoce como:",
     "answers": [
       "Pl an de calidad",
@@ -436,7 +435,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 32,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Según la norma ISO 9001, el principio fundamental que debe guiar la gestión de la calidad en una organización es:",
     "answers": [
       "El liderazgo de la Dirección.",
@@ -450,7 +449,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 33,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Cuál de las siguientes afirmaciones sobre pruebas diagnósticas es cierta?",
     "answers": [
       "La sensibilidad es la probabilidad de que un individuo sano presente la prueba positiva.",
@@ -464,7 +463,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 34,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La desviación estándar de una distribución es una medida de",
     "answers": [
       "Posición",
@@ -478,7 +477,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 35,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En relación con la calibración de equipos, ¿cuál de las siguientes afirmaciones es correcta?",
     "answers": [
       "Se entiende por calibración la comparación de un sistema de medici ón frente a estándares conocidos.",
@@ -492,7 +491,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 36,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Una vez obtenidos los resultados del analizador, observamos que uno de los parámetros, a pesar de haber sido diluido automáticamente por el analizador, sigue estando fuera de rango, por lo cual procedemos a realizar una dilución manual de la muestra al 1/20 con suero fisiológico, ¿cuál de la s siguientes proporciones serían las correctas?",
     "answers": [
       "10 microl de muestra + 200 microl de suero fisiológico.",
@@ -506,7 +505,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 37,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Respecto al error sistemático, señale la RESPUESTA CORRECTA:",
     "answers": [
       "Afecta a la precisión.",
@@ -520,7 +519,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 38,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La precisión de un resultado analítico es:",
     "answers": [
       "Reproducibilidad",
@@ -534,7 +533,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 39,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Si se realizan 20 determinaciones de glucosa de una única muestra de plasma, los resultados no serán todos exactamente iguales debido a:",
     "answers": [
       "Error aleatorio.",
@@ -548,7 +547,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 40,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En relación con la calidad en el laboratorio clínico, todos los enunciados son ciertos EXCEPTO:",
     "answers": [
       "Se centra únicamente en la fase analítica",
@@ -562,7 +561,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 41,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Según qué NORMA ISO se han acreditado o están en proceso de acreditación los laboratorios clínicos:",
     "answers": [
       "NORMA UNE -EN ISO 17025:1999",
@@ -576,7 +575,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 42,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El transporte de muestras al laboratorio debe hacerse:",
     "answers": [
       "En un periodo de tiempo apropiado a la naturaleza de la petición.",
@@ -590,7 +589,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 43,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La fase preanalítica es un subproceso del laboratorio que incluye, entre otros:",
     "answers": [
       "El transporte de las muestras hasta el laboratorio.",
@@ -604,7 +603,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 44,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Señale la respuesta correcta:",
     "answers": [
       "El EDTA constituye actualmente un anticoagulante de elección en hematología.",
@@ -616,9 +615,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 45,
+    "theme": "Tema 1",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
+    "text": "Es motivo de rechazo.",
+    "answers": [
+      "Una muestra mal rotulada.",
+      "Una muestra derramada.",
+      "Un volante no cumplimentado.",
+      "Todas las anteriores son correctas."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 46,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Indique cuál de las siguientes no es una medida de tendencia central:",
     "answers": [
       "Coeficiente de variación.",
@@ -632,7 +645,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 47,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En una distribución de variables cuantitativas el valor que se repite con mayor frecuencia se denomina:",
     "answers": [
       "Media.",
@@ -646,7 +659,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 48,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Obtenemos un resultado de glucosa en orina con una alarma de absorbancia; en el manual de la técnica nos indican que realicemos una dilución 1/20. ¿Cómo realizaríamos la dilución?",
     "answers": [
       "Con 19 volúmenes de orina más 1 volumen de agua destilada.",
@@ -660,7 +673,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 49,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "El error que se debe a causas accidentales difíciles de determinar y que puede influir en cualquier resultado, se denomina:",
     "answers": [
       "Error aleatorio.",
@@ -674,7 +687,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 50,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Los gráficos de control que habitualmente se emplean en el laboratorio clínico para evaluar el control de calidad interno se conocen como:",
     "answers": [
       "Graficas de Levey -Jennings. Página 6 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
@@ -688,7 +701,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 51,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Un error sistemático en el laboratorio viene determinado por:",
     "answers": [
       "La precisión y la exactitud.",
@@ -702,7 +715,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 52,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La norma vigente de acredi tación específica de un laboratorio clínico es:",
     "answers": [
       "Norma UNE -EN ISO 15189:2007.",
@@ -716,7 +729,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 53,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En los resultados de un control de calidad durante cinco días consecutivos, hemos obtenido los siguientes resultados: 2,10/2,00/2,05/2,07/2,00. ¿Cuál es su moda lidad ?",
     "answers": [
       "2,01.",
@@ -730,7 +743,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 54,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Una de las siguientes afirmaciones sobre los indicadores de calidad es falsa, ¿cuál?",
     "answers": [
       "Deben ser simples, pertinentes, reproducibles y fiables.",
@@ -744,7 +757,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 55,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El PNT (procedimiento Normalizad os de trabajo) de una técnica analítica debe contar con los siguientes apartados salvo uno, ¿cuál?",
     "answers": [
       "Capítulo de la Norma ISO 9001:2008 aplicada.",
@@ -756,9 +769,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 56,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La especificidad de un test refleja:",
+    "answers": [
+      "Lo cerca que está del valor verdadero.",
+      "La proporción de resultados positivos en personas que padecen el proceso.",
+      "La proporción de resultados positivo en personas que no padecen el proceso.",
+      "La proporción de resultados negativos en personas sin enfermedad."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 57,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Cuál de los siguientes tipos de muestras, considera el más indicado para determinación de la glucosa en cualquier circunstancia:",
     "answers": [
       "Plasma con heparina de litio",
@@ -772,7 +799,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 58,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "En una técnica fotométrica, una mala asignación de los valores de los calibradores produce en la obtención de los resultados:",
     "answers": [
       "Un error aleatorio",
@@ -786,7 +813,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 59,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Se considera criterio de rechazo de una muestra:",
     "answers": [
       "Una muestra que no viene identificada correctamente",
@@ -800,7 +827,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 60,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para preparar una solución acuosa 1 Molar de hidróxido sódico (NaOH) sabiendo que el peso molecular del mismo es 40:",
     "answers": [
       "Tenemos que pesar 80 g de NaOH, ponerlo en un matraz y disolver con agua hasta 1000 ml d e solución",
@@ -814,7 +841,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 61,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La unidad de densidad es:",
     "answers": [
       "Es la unidad de longitud dividida por la unidad de segundo",
@@ -828,7 +855,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 62,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "La diferencia principal entre suero y plasma es:",
     "answers": [
       "La presencia en plasma de fibrinógeno, que no está presente en suero",
@@ -842,7 +869,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 63,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En la actualidad, si un laboratorio clínico desea acreditar su calidad y competencia, deberá cumplir los requisitos de la norma:",
     "answers": [
       "UNE -EN ISO 9001:2008",
@@ -856,7 +883,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 64,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El programa de aseguramiento de calidad en un laboratorio de diagnóstico clínico debe incluir una serie de pautas. Señale la respuesta correcta:",
     "answers": [
       "Han de describirse los pro cedimientos documentados de las técnicas que se llevan a cabo en el laboratorio .",
@@ -868,9 +895,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 65,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La siguiente definición “medida de dispersión de un conjunto de datos con respecto al promedio”, corresponde a:",
+    "answers": [
+      "Mediana",
+      "Varianza",
+      "Sesgo",
+      "Desviación estándar"
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 66,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Cuando hablamos de un volumen de una lambda, estamos haciendo refe rencia a:",
     "answers": [
       "Un decilitro",
@@ -884,7 +925,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 67,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Qué anticoagulante presenta el tubo de suero?:",
     "answers": [
       "Heparina sódica.",
@@ -898,7 +939,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 68,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El valor de un control para un determinado parámetro tiene una media de 50 y una DE de 5. Tomando como límite de confianza el 95%, ¿cuál de los siguientes valores debería ser rechazado ?:",
     "answers": [
       "47",
@@ -912,7 +953,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 69,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes no es un objetivo dir ecto de un sistema de gestión de la calidad según la norma ISO en un laboratorio?",
     "answers": [
       "Disminución del gasto.",
@@ -926,7 +967,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 70,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El manual de calidad de un laboratorio según la norma ISO debe contener obligatoriamente los siguientes documentos, excepto:",
     "answers": [
       "Política de calidad.",
@@ -940,7 +981,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 71,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "No es causa de pérdida de precisión analítica una de las siguientes opciones:",
     "answers": [
       "Un pipeteo inadecuado de muestras y controles",
@@ -954,7 +995,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 72,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Por mantenimiento preventivo de un equipo entendemos:",
     "answers": [
       "Las operaciones encaminadas a corregir fallos o averías.",
@@ -968,7 +1009,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 73,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El coeficiente de variación de un conjunto de resultados analíticos expresa:",
     "answers": [
       "El error típico o error est ándar de la media expresada en porcentaje.",
@@ -982,7 +1023,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 74,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Los métodos analíticos deben ser:",
     "answers": [
       "Precisos e inexactos.",
@@ -996,7 +1037,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 75,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de estas causas no interfiere en la analítica?",
     "answers": [
       "Suero lipémico",
@@ -1008,9 +1049,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 76,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Para realizar una dilución 1:10 de un espécimen de suero, se toma un volumen de espécimen de 0,1 ml",
+    "answers": [
+      "9 microlitos",
+      "10 microlitos",
+      "900 microlitos",
+      "1,0 microlitros"
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 77,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Si queremos obtener suero de una muestra de sangre, ¿qué anticoagulante usaremos?:",
     "answers": [
       "Heparina.",
@@ -1024,7 +1079,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 78,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Es un gráfico de control:",
     "answers": [
       "Gráfico de CuSum.",
@@ -1038,7 +1093,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 79,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En cuanto al transporte de muestras entre laboratorios:",
     "answers": [
       "Es recomendable hacerlo en cajas herméticas o neveras transportadoras .",
@@ -1052,7 +1107,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 80,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "El grado en que una medición proporciona resultados similares cuando se lleva a cabo en más de una ocasión en las mismas condiciones es la:",
     "answers": [
       "Validez.",
@@ -1066,7 +1121,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 81,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La certificación que da fe de que una empresa cumple los requisitos con una norma concreta es:",
     "answers": [
       "ISO 3500.",
@@ -1080,7 +1135,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 82,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "La fiabilidad es sinónimo de:",
     "answers": [
       "Reproducibilidad.",
@@ -1094,7 +1149,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 83,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Las calibraci ones:",
     "answers": [
       "El conjunto de operaciones que establecen la relación entre los valores de una magnitud indicados por un equipo de medida y l os valores de esa magnitud realizados por patrones .",
@@ -1108,7 +1163,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 84,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "La repr oducibilidad de un método se define como:",
     "answers": [
       "Dispersión",
@@ -1122,7 +1177,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 85,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La desviación estándar de una población es:",
     "answers": [
       "La varianza",
@@ -1136,7 +1191,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 86,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Uno de los atributos de la calidad es la eficiencia. Señale de qué se trata:",
     "answers": [
       "Grado de consecución de los objetivos propuestos al mínimo coste posible.",
@@ -1148,9 +1203,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 87,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Para preparar una disolución 1 Molar con ácido sulfúrico (SO4H2) sabiendo que el peso molecular del mismo es aproximadamente 98:",
+    "answers": [
+      "Tenemos que pesar 49 gramos de SO4H2, ponerlo en un matraz y disolver con agua hasta conseguir 1000 ml de disolución.",
+      "Tenemos que pesar 98 gramos de SO4H2, ponerlo en un matraz y disolver con agua hasta conseguir 1000 ml de disolución.",
+      "Tenemos que pesar 196 gramos de SO4H2, ponerlo en un matraz y disolver con agua hasta conseguir 1000 ml de disolución.",
+      "Tenemos que pesar 98 gramos de SO4H2, ponerlo en un matraz y disolver con agua hasta conseguir 500 ml de disolución."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 88,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Se realiza una determinación de glucosa y el autoanalizador nos ha dado un resultado de 1,1 g/ l. ¿Cuál será el resultado expresado en mg/dl?:",
     "answers": [
       "11,00mg/dl",
@@ -1164,7 +1233,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 89,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes definiciones se corresponde con el concepto \"precisión\" dentro de un resultado? :",
     "answers": [
       "Cercanía de una serie de mediciones alrededor del valor promedio.",
@@ -1178,7 +1247,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 90,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Ante la situación de un fallo de control interno de calidad, la medida a tomar más oportuna sería:",
     "answers": [
       "Repetir el control hasta que se sitúe en valores aceptables .",
@@ -1192,7 +1261,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 91,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "El anticoagulante que se utiliza preferentemente en los estudios bioquímicos procedentes de urgencias es:",
     "answers": [
       "Heparina de litio.",
@@ -1206,7 +1275,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 92,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es el ángulo apropiado de inserción de la aguja para la flebotomía?",
     "answers": [
       "5º.",
@@ -1220,7 +1289,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 93,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Es criterio de exclusión de una muestra biológica:",
     "answers": [
       "Envase no adecuado.",
@@ -1234,7 +1303,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 94,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Las reglas de W estgard sirven para:",
     "answers": [
       "Detectar sólo el error aleatorio.",
@@ -1248,7 +1317,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 95,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Entre las causas de hemolisis de muestras de suero, están todas las siguientes, excepto:",
     "answers": [
       "La exposición a la luz.",
@@ -1262,7 +1331,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 96,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Antes de la centrifugación de la sangre para la obtención de suero, se debe permitir la coagulación completa para:",
     "answers": [
       "Evitar contaminación.",
@@ -1276,7 +1345,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 97,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Todas las siguientes son características de los sistemas POCT (Point O f Care T esting), excepto una. Señálela:",
     "answers": [
       "Proporcionan resultados de manera rápida.",
@@ -1290,7 +1359,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 98,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La relación entre los resultados obtenidos y los recursos y costes empleado s se denomina:",
     "answers": [
       "Equidad.",
@@ -1304,7 +1373,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 99,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Uno de los conceptos básicos del control de calidad en el laboratorio es el error total. Este concepto se calcula con:",
     "answers": [
       "La media ponderada.",
@@ -1318,7 +1387,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 100,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es el porcentaje de individuos normales que tienen el valor de una magnitud analítica por encima del valor de referencia superior?:",
     "answers": [
       "5%",
@@ -1332,7 +1401,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 101,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El valor predictivo positivo de un resultado es: (TP=total Pacientes; VP=verdaderos positivos; FN=falsos negativos):",
     "answers": [
       "VP/(VP+FP).",
@@ -1346,7 +1415,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 102,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes normas acredita la competencia técnica en un Laboratorio clínico?:",
     "answers": [
       "ISO 15189.",
@@ -1360,7 +1429,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 103,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La especificidad de una prueba para diagnosticar una enfermedad se calcula según el cociente:",
     "answers": [
       "VP/(VP+FP).",
@@ -1374,7 +1443,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 104,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La desviación estándar expresada en términos de porcentaje de la media se denomina:",
     "answers": [
       "Coeficiente de correlación.",
@@ -1388,7 +1457,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 105,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "La ISO 15189:",
     "answers": [
       "La otorga cualquier entidad con capacidad acreditadora.",
@@ -1402,7 +1471,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 106,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes procesos no forma parte de la fase preanalítica del laboratorio?",
     "answers": [
       "Preparación del paciente",
@@ -1416,7 +1485,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 107,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿A qué hace referencia el término \"índice sérico\"?",
     "answers": [
       "Determinación cuantitativa de hemoglobina, bilirrubina y lípidos presentes en u na muestra de suero.",
@@ -1430,7 +1499,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 108,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La probabilidad de obtener un resultado positivo en un individuo enfermo es:",
     "answers": [
       "La sensibilidad",
@@ -1444,7 +1513,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 109,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Para realizar un cribado o “screening ” de una enfermedad en una población, debemos elegir una prueba diagnóstica que sea:",
     "answers": [
       "Altamente específica.",
@@ -1458,7 +1527,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 110,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Los valores máximos y mínimos de lectura de un equipo los define:",
     "answers": [
       "La fiabilidad.",
@@ -1472,7 +1541,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 111,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué determinación no precisa una muestra con anticoagulante?",
     "answers": [
       "Tiempo de Protrombina.",
@@ -1486,7 +1555,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 112,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El ayuno provoca:",
     "answers": [
       "Aumento de la bilirrubina.",
@@ -1500,7 +1569,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 113,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué alteraciones provocaría la extracción sanguínea del mismo brazo de una vía heparinizada con perfusión de suero glucosado?",
     "answers": [
       "Disminuci ón de los valores iónicos.",
@@ -1514,7 +1583,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 114,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La presencia de hemólisis originará una disminución de…",
     "answers": [
       "LDH.",
@@ -1528,7 +1597,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 115,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué característica deben c umplir los envases para la toma de muestras?",
     "answers": [
       "Ser estériles",
@@ -1542,7 +1611,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 116,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "La recogida de sangre de una gasometría se realiza:",
     "answers": [
       "Con jeringa especial sin anticoagulante.",
@@ -1556,7 +1625,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 117,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Cómo se denomina la dimensión de la calidad asistencial que relaciona los resultados obtenidos y los costes que genera el servicio prest ado? :",
     "answers": [
       "Utilidad",
@@ -1570,7 +1639,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 118,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Con respecto a la calidad de las pruebas diagnósticas, la probabilidad de que una persona clasificada como negativa (sana) por la prueba esté realmente sana, es el llamado :",
     "answers": [
       "Valor predictivo posi tivo",
@@ -1584,7 +1653,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 119,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Para qué se utiliza el protocolo de Westgard o Multirregla de Shewart? :",
     "answers": [
       "Para valorar un proceso analítico fuera de control .",
@@ -1598,7 +1667,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 120,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Con respecto al Coeficiente de Variación (C.V.), señale la RESPUESTA CORRECTA:",
     "answers": [
       "Es un índice de dispersión que permite comparar dos variables. Se suele expresar en forma de porcentaje.",
@@ -1612,7 +1681,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 121,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De los siguientes índices estadísticos, ¿cuál representa una medida de dispersión?",
     "answers": [
       "Media aritmética.",
@@ -1626,7 +1695,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 122,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La calidad puede definirse desde tres puntos de vista fundamentales. Señale el INCORRECTO:",
     "answers": [
       "Instrucción",
@@ -1640,7 +1709,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 123,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Generalmente, en muestras hemolizadas, ¿qué debemos hacer si se nos solicita la determinación de LDH?",
     "answers": [
       "Dete rminar solo sus isoenzimas .",
@@ -1654,7 +1723,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 124,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Definimos la sensibilidad diagnóstica como:",
     "answers": [
       "Capacidad de la prueba para detectar la enfermedad cuando está presente. Página 13 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
@@ -1668,11 +1737,10 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 125,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Resp ecto a los documentos de calidad, señale la RESPUESTA CORRECTA:",
     "answers": [
       "No es requisito que el sistema de gestión de calidad (SGC) esté documentado.",
-      "",
       "esté documentado. B) El manual de calidad es el documento básico sobre el que se articula todo el SGC. En él se resumen todos los procedimientos y la interacción de los procesos que se realizan. C) En un laboratorio acreditado no es necesario disponer de procedimientos generales de gestión, ya que es competencia propia de la dirección.",
       "Todas las anteriores respuestas son correctas ."
     ],
@@ -1682,7 +1750,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 126,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué respuesta se ajusta más a la definición de un procedimiento normalizado de trabajo (PNT)?",
     "answers": [
       "El PNT es una herramienta de armonización clave para garantizar que se lleven a cabo todos los procesos y procedimientos .",
@@ -1696,7 +1764,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 127,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La aplicación de la norma ISO en los laboratorios es:",
     "answers": [
       "Voluntaria .",
@@ -1710,7 +1778,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 128,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es la diferencia entre suero y plasma?",
     "answers": [
       "El proceso de obtención de cada uno de ellos .",
@@ -1724,7 +1792,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 129,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Los errores más frecuentes con muestras sanguíneas se cometen en la fase:",
     "answers": [
       "Analítica",
@@ -1738,7 +1806,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 130,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para una rápida visualización de la validez de un resultado de un control de calidad, ¿qué herramienta podemos utilizar?",
     "answers": [
       "La gráfica Levey -Jennings",
@@ -1752,7 +1820,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 131,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Si necesitamos diluir una muestra de suero de un paciente a 1/40 con suero fisiológico:",
     "answers": [
       "Aspiraremos 40 partes de suero fisiológico y le añadiremos 1 parte de suero (muestra) en tubo distinto .",
@@ -1766,7 +1834,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 132,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Si necesitamos realizar una prueba de cribado (screening) para determinar anticuerpos contra VIH, utilizaremos:",
     "answers": [
       "Una técnica con una sensibilidad del 98% y 80% de especificidad .",
@@ -1780,7 +1848,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 133,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Las gráficas de Levey -Jenning se utilizan en el laboratorio para conocer:",
     "answers": [
       "La exactitud y precisión diaria de los resul tados analíticos obtenidos con un mismo control .",
@@ -1794,7 +1862,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 134,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El grado de consecución de los objetivos propuestos sin tener en cuenta el coste empleado, se denomina:",
     "answers": [
       "Eficiencia.",
@@ -1808,7 +1876,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 135,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Las empresas que transportan las muest ras biológicas deben tener en cuenta tres variables principales que son:",
     "answers": [
       "Trazabilidad, tiempo y temperatura.",
@@ -1822,7 +1890,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 136,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué significan las siglas GLP en castellano dentro de la acreditación en el laboratorio? :",
     "answers": [
       "Buenas prácticas de laboratorio.",
@@ -1836,7 +1904,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 137,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es el procesamiento de la muestra? :",
     "answers": [
       "Es el período comprendido entre la recogida de la muestra y la llegada al laboratorio, incluyendo sus actividades.",
@@ -1850,7 +1918,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 138,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Dentro del control de calidad, ¿qué es la exactitud?",
     "answers": [
       "La aproximación del va lor a una medida de sí mismo, cuando se realizan varias determinaciones empleando el mismo método.",
@@ -1864,7 +1932,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 139,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En una conexión unidireccional entre el Analizador y el sistema informático del Laboratorio:",
     "answers": [
       "La información sólo puede pasar del sistema informático del laboratorio al analizador.",
@@ -1878,7 +1946,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 140,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El color amarillo -verdoso característico de los sueros ictéricos se debe a la presencia en la muestra de:",
     "answers": [
       "Triglicéridos.",
@@ -1892,7 +1960,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 141,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Evaluar la probabilidad de que un individuo, en una población definida, se beneficie de la aplicación de una tecnología sanitaria bajo condiciones reales de aplicación, se denomina…",
     "answers": [
       "Eficacia.",
@@ -1906,7 +1974,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 142,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Un laboratorio ha recibido las siguientes valoraciones de error al participar en un programa de intercomparación para un mensurando dado, en periodos consecutivos: 4.0%, 0.0%, -4.0 %, 3.0% y - 3.0% ¿Qué sesgo muestra el laboratorio?",
     "answers": [
       "3,50.",
@@ -1920,7 +1988,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 143,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para el cálculo de la especificida d diagnóstica de una prueba, ¿cuál de las siguientes opciones es necesaria para poder calcularla?",
     "answers": [
       "Verdaderos positivos y falsos positivos.",
@@ -1934,7 +2002,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 144,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "En cuanto a la preanalítica del tubo con citrato como anticoagulante, es falso que",
     "answers": [
       "Se suele utilizar para estudios de coagulación.",
@@ -1948,7 +2016,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 145,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El grado de consecución de los objetivos sin tener en cuen ta el coste empleado, ¿qué define?",
     "answers": [
       "La Eficiencia",
@@ -1962,7 +2030,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 146,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Con qué indicador o parámetro estadístico se debería medir un error que se produce por factores incontrolables del procedimiento de medida?",
     "answers": [
       "Desviación estándar y coeficiente de variación",
@@ -1974,9 +2042,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 147,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Según el código de colores de los tapones de tubos de vacío, utilizaremos para el estudio de VSG (velocidad de sedimentación globular) los de color:",
+    "answers": [
+      "Malva",
+      "Verde",
+      "Negro",
+      "Azul"
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 148,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Respecto a los tubos de recogida de muestras sanguíneas, ¿cuál es la respuesta CORRECTA?",
     "answers": [
       "El tubo con el aditivo EDTA K3 se utiliza para obtener suero y realizar pruebas bioquímicas.",
@@ -1990,7 +2072,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 149,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En pa cientes con infusión parenteral de suero glucosado u otros, y en relación a la toma de muestras:",
     "answers": [
       "Existen técnicas definidas para la extracción de muestras en estos casos, que deben seguirse cuidadosamente para evitar la contaminación",
@@ -2004,7 +2086,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 150,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Si hablamos de calidad en el laboratorio clínico, qué dirías que es la especificidad:",
     "answers": [
       "La capacidad de una prueba de dar un resultado negativo en un sujeto sano",
@@ -2018,7 +2100,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 151,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el laboratorio clínico entendemos por mantenimiento preventivo : Página 16 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "El que se realiza cuando hay parada, deterioro o daños en el equipo",
@@ -2032,7 +2114,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 152,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En una disolución llamamos soluto a la sustancia:",
     "answers": [
       "Que se halla en menor proporción",
@@ -2046,7 +2128,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 153,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "La norma que acredita la calidad en el ámbito del laboratorio clínico es:",
     "answers": [
       "ISO 15189",
@@ -2060,7 +2142,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 154,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Cuál de las siguientes afirmaciones es verdadera?",
     "answers": [
       "La sensibilidad de una prueba diagnóstica mide su capacidad para detectar sujetos sanos cuando dicha enfermedad está presente",
@@ -2074,7 +2156,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 155,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Los requisitos de reproducibilidad, volumen pequeño de reactivo, técnica rápida, sencilla, reactivos estables antes y después de su reconstitución, pertenecen a:",
     "answers": [
       "Fase pre -analítica",
@@ -2088,7 +2170,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 156,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Con qué parámetro valoramos a la dispersión de la muestra?",
     "answers": [
       "Media",
@@ -2102,7 +2184,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 157,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El citrato sódico se utiliza como anticoagulante en:",
     "answers": [
       "Pruebas bioquímicas",
@@ -2116,7 +2198,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 158,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale cuál de las siguientes es una norma de acreditación específica para los laboratorios clínicos:",
     "answers": [
       "ISO 9001:2015.",
@@ -2130,7 +2212,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 159,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes afirmaciones es incorrecta?:",
     "answers": [
       "La actividad AST puede aumentar hasta tres veces con el ejercicio intenso.",
@@ -2144,7 +2226,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 160,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Que se obtiene centrifugando un tubo de sangre con citrato como anticoagulante?:",
     "answers": [
       "Sangre total.",
@@ -2158,7 +2240,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 161,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Como se prepara 100 mL de disolución de sacarosa al 6% p/v partiendo de una diso lución de sacarosa al 30% p/v:",
     "answers": [
       "18 mL de disolución de sacarosa al 30% p/v y hasta 100 mL de H2O",
@@ -2172,7 +2254,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 162,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Qué cantidades emple aríamos para preparar una disolución final de 200mL de lejía (NaClO), en agua (H2O) a una concentración del 5% v/v: Peso atómico: Na=23; Cl=35.5; O=16; H=1",
     "answers": [
       "10 mL de lejía y 200 mL de H2O.",
@@ -2181,12 +2263,12 @@ const OFFICIAL_QUESTIONS = [
       "9,3 mL de lejía y hasta 200 mL de H2O."
     ],
     "correct": 1,
-    "explanation": "el peso atómico lo deba a para liar. La concentración volumen/volumen es volumen de soluto/volumen de disolvente, todo ello multiplicado x100 para expresarlo en %. Había que buscar aquella que daba 5%, es decir, (10/200)*100=5% 201 Comentario: moles (g)/peso molecular. 0’0365/36’5=0’001 moles. No dice el volumen de disolución, pero si se asume que es 1L 0’001/1=0’001M=1mM. No está del todo bien expresada: o bien en el enunciado debería poner mmol, o bien tendrían que dar el volumen de disolución para calcularlo en M. Se podría tratar de impugnar 202 Comentario: 900 microlitros= 0’9 ml. Si mezclas 0’1 ml suero con 0’9 ml sol.salina, estás haciendo una dilución 1/10. Si de esa dilución coges 500 microlitros y lo mezclas con 500 microlitros estás haciendo una dilución 1/2. Total=1/10x1/2=1/20 205 Comentario: 1mol de HCl (ac.clorhídrico) tiene 1 equivalentes gramos (tiene 1 H+). 0’1N/1=0’1 Molar. Como tengo la misma concentración inicial que final, el volumen es el mismo, 100ml 208 Comentario: 1mol de H2SO4 (ac.sulfúrico 2atomos H 1atomo azufre 4atomos O) tiene 2 equivalentes gramos (tiene 2 H+), la molaridad será la mitad al dividir 0’5 entre 2 (nº equivalentes gramos). La fórmula sería N=M x nº equivalentes gramo 242 Comentario: es una hormona lábil, que requiere su extracción en plasma y rápida congelación. La mayoría de las veces se extrae con EDTA, pero el tubo recomendado es tubo EDTA aprotinina (tapón rosa= tubo recomendado para hormonas lábiles) 288 Comentario: finalmente dieron la D pero no estoy de acuerdo. La media es 144, para calcular cuál es la desviación estándar se coge uno de los dos valores del extremo del intervalo y se resta, y luego se divide entre 2. P.ej.: 159-144=15 15/2=7,5. Dieron la D al considerar 3 desviaciones estándar. 15/3=5 290 Comentario: sería 20/(780+20) = 20/800 = 1/40. Hay que hacer las cuentas en papel en el examen! 295 Comentario: 20/(480+20) serían 20/500 que es lo mismo que 1/25 314 Comentario: la más falsa es la C, pero todas las demás opciones están cogidas con pinzas. La considero impugnable. Al final no la impugnaron en el examen. 339 Comentario: C1 x V1 = C2 x V2. 3 x V1 = 2 x 90"
+    "explanation": "el peso atómico lo deba a para liar. La concentración volumen/volumen es volumen de soluto/volumen de disolvente, todo ello multiplicado x100 para expresarlo en %. Había que buscar aquella que daba 5%, es decir, (10/200)*100=5%"
   },
   {
     "id": 163,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes etapas tiene relación con el proceso preanalítico?:",
     "answers": [
       "Solicitud de análisis y obtención del espécimen.",
@@ -2200,7 +2282,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 164,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Con respecto a los tipos de muestras, señale la opción verdadera:",
     "answers": [
       "El tipo de muestra va a depender del tipo de parámetro que se va a analizar y el método que se vaya a utilizar.",
@@ -2214,7 +2296,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 165,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La toma de muestra de sangre se obtiene por punción venosa, arterial o capilar, aunque de forma general se obtiene por punción venosa debido a",
     "answers": [
       "Causa un menor traumatismo para el paciente.",
@@ -2228,7 +2310,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 166,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Con respecto a las muestras sanguíneas",
     "answers": [
       "Un transporte rápido y una temperatura de almacenaje adecua da mejoran la fiabilidad de los resultados de laboratorio.",
@@ -2242,7 +2324,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 167,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Durante la extracción sanguínea, señale la respuesta falsa",
     "answers": [
       "El sitio de punción se limpia con un antiséptico.",
@@ -2256,7 +2338,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 168,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En cuanto a los criterios de aceptación de muestras, señale la respuesta correcta",
     "answers": [
       "Las muestras se reciben en el contenedor adecuado para las determinaci ones solicitadas.",
@@ -2270,7 +2352,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 169,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el manual de laborator io deben estar recogido los siguientes aspectos acerca de la fase preanalítica",
     "answers": [
       "En qué tipo de contenedor se debe recibir la muestra.",
@@ -2284,7 +2366,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 170,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "En la extracción de muestras de sangre, el tubo con tapa verde nos indica que",
     "answers": [
       "El tubo contiene fluoruro oxalato como anticoagulante.",
@@ -2298,7 +2380,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 171,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En cuanto a los criterios de rechazo de muestras, señale la afirmación correcta",
     "answers": [
       "Tubos o contenedores de muestra sin identificación.",
@@ -2312,7 +2394,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 172,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Para las pruebas de coagulación se emplea sangre",
     "answers": [
       "Con citrato 1:4.",
@@ -2326,7 +2408,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 173,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Ante la demora en la realización de los análisis, las muestras de sangre generalmente han de refrigerarse a una temperatura de",
     "answers": [
       "Entre 4 -8 ºC.",
@@ -2340,7 +2422,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 174,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el laboratorio debe existir un registro ac tualizado de todos los equipos de medición y ensayo. Este registro se compone de los siguientes datos:",
     "answers": [
       "Nombre del equipo, del fabricante y ubicación habitual.",
@@ -2352,9 +2434,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 175,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Los beneficios de acreditar un laboratorio son",
+    "answers": [
+      "Reducir los riesgos, pues la acreditación va a permitir determinar si se está realizando el trabajo correctamente.",
+      "Compromiso de todo el personal del laboratorio con el cumplimiento de los requisitos de calidad.",
+      "Evaluaciones periódicas del organismo de acreditación que proporcionan un punto de referencia para mantener la competencia.",
+      "Todas las respuestas anteriores son verdaderas."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 176,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La calidad es responsabilidad de",
     "answers": [
       "Ge rente del hospital.",
@@ -2368,7 +2464,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 177,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La norma ISO 15189",
     "answers": [
       "Contiene los requisitos que los laboratorios clínicos que analizan muestras humanas tienen que cumplir.",
@@ -2382,7 +2478,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 178,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La definición \"aseguramiento de la calidad\" incluye las siguientes:",
     "answers": [
       "Acciones planificadas y sistemáticas necesarias para proporcionar la confianza de que un producto satisfaga los requisitos sobre calidad.",
@@ -2396,7 +2492,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 179,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Un parámetro que representa una medida cuantitativa para evaluar la calidad de aspectos importantes de la gestión o de otros procesos es",
     "answers": [
       "Un indicador.",
@@ -2410,7 +2506,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 180,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "La aproximación al valor verdadero de una magnitud se conoce como",
     "answers": [
       "Precisión.",
@@ -2424,7 +2520,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 181,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El grado de cumplimiento de los objetivos planificados se denomina",
     "answers": [
       "Garantía de calidad.",
@@ -2438,7 +2534,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 182,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El organismo delegado de evaluación de la conformidad (certificación) en España se llama",
     "answers": [
       "ISO.",
@@ -2452,7 +2548,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 183,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El mantenimiento de los analizadores",
     "answers": [
       "Se realizará de acuerdo con las instrucciones escritas.",
@@ -2466,7 +2562,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 184,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La norma que estandariza los reci pientes de un solo uso para la recogida de muestras de sangre venosa es:",
     "answers": [
       "UNE -EN ISO 6710.",
@@ -2480,7 +2576,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 185,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "El anticoagulante que contiene el tubo de extracción de sangre por vacío utilizado para la realización de pruebas de coagulación es",
     "answers": [
       "EDTA.",
@@ -2494,7 +2590,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 186,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Señala la respuesta incorrecta:",
     "answers": [
       "El plasma constituye el 55 -60% del volumen sanguíneo.",
@@ -2508,7 +2604,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 187,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuáles son los parámetros de calidad dentro de un laboratorio de análisis clínico?:",
     "answers": [
       "La eficacia de la resolución de incidencias.",
@@ -2522,7 +2618,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 188,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale cuál de las siguientes es un error sistemático:",
     "answers": [
       "Desviación de todas las mediciones en +2 desviaciones estándar.",
@@ -2536,7 +2632,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 189,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Cuando el suero tiene aspecto turbio, opalescente, debido a la concentración de lipoproteínas se dice que está:",
     "answers": [
       "Hemolizado.",
@@ -2550,7 +2646,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 190,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de estos no es un error preanalítico?:",
     "answers": [
       "Una aguja obstruida en el analizador en el momento del pipeteo de la muestra.",
@@ -2564,7 +2660,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 191,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de estas normas es exclusiva de Laboratorio?:",
     "answers": [
       "ISO 9001.",
@@ -2578,7 +2674,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 192,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La relación entre la calidad obtenida y los recursos y costes empleados se llama:",
     "answers": [
       "Garantía de calidad.",
@@ -2592,7 +2688,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 193,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para controlar los procesos de medida usando materiales de control y decidir la conformidad o disconformidad del proceso de medida, ¿qué gráfica tendremos en cuenta?",
     "answers": [
       "Gráfica de Westgard.",
@@ -2606,7 +2702,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 194,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En estadística, el intervalo comprendido entre aproximadamente dos desviaciones estándar alrededor de la media se conoce como:",
     "answers": [
       "Intervalo de probabilidad del 99%.",
@@ -2620,7 +2716,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 195,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Los anticoagulantes empleados para la obtención de plasma basan su acción en la combinación con el calcio, excepto:",
     "answers": [
       "Fluoruro sódico.",
@@ -2632,9 +2728,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 196,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Para preparar una dilución del suero 1/100 se pondrá:",
+    "answers": [
+      "1 µL de suero y 100 µL de agua destilada.",
+      "10 µL de suero y 990 µL de agua destilada.",
+      "1 mL de suero y 10 mL de solución salina.",
+      "Ninguna es correcta."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 197,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La implantación de un sistema de gestión de calidad en un laboratorio, implica a:",
     "answers": [
       "Al jefe de servicio.",
@@ -2648,7 +2758,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 198,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Uno de los conceptos básicos del control de calidad en el laboratorio es el error total. Este concepto se calcula con:",
     "answers": [
       "La media ponderada.",
@@ -2662,7 +2772,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 199,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Cuando la concentración de un analito es tan alta que queda fuera del intervalo lineal de la curva de calibración:",
     "answers": [
       "Se puede preconcentrar el analito antes de someterlo al e xperimento.",
@@ -2676,7 +2786,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 200,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El procesamiento de muestras es:",
     "answers": [
       "El periodo comprendido entre la re cepción de la muestra y el envío de los resultados.",
@@ -2690,7 +2800,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 201,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En una balanza se desea pesar 1 mM de NaCI (masa molecular 36,5), ¿Qué debería indicar la misma?",
     "answers": [
       "36.5 g.",
@@ -2699,12 +2809,12 @@ const OFFICIAL_QUESTIONS = [
       "365 mg."
     ],
     "correct": 2,
-    "explanation": ""
+    "explanation": "moles (g)/peso molecular. 0’0365/36’5=0’001 moles. No dice el volumen de disolución, pero si se asume que es 1L 0’001/1=0’001M=1mM. No está del todo bien expresada: o bien en el enunciado debería poner mmol, o bien tendrían que dar el volumen de disolución para calcularlo en M. Se podría tratar de impugnar"
   },
   {
     "id": 202,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Para diluir un suero añadimos 900 microlitros de solución salina y 0.1 ml de suero problema al primer tubo; se homogeniza, y se pasan 500 microlitros de este tubo a un segundo tubo; se añaden otros 500 microlitros de solución salina al primer tubo ¿Qué dilución final de suero hemos conseguido en el primer tubo?",
     "answers": [
       "1:20.",
@@ -2713,12 +2823,12 @@ const OFFICIAL_QUESTIONS = [
       "1:200."
     ],
     "correct": 0,
-    "explanation": ""
+    "explanation": "900 microlitros= 0’9 ml. Si mezclas 0’1 ml suero con 0’9 ml sol.salina, estás haciendo una dilución 1/10. Si de esa dilución coges 500 microlitros y lo mezclas con 500 microlitros estás haciendo una dilución 1/2. Total=1/10x1/2=1/20"
   },
   {
     "id": 203,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "No se considera como líquido corporal:",
     "answers": [
       "Sangre.",
@@ -2732,7 +2842,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 204,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "NO es un objetivo que se persiga al analizar las muestras:",
     "answers": [
       "Realizar un correcto diagnóstico al proceso patológico.",
@@ -2746,7 +2856,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 205,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Tenemos una disolución de HCL 0,1 Molar y queremos obtener 100 ml de disolución 0,1 Normal ¿Qué volumen de disolución 0,1 Molar debemos tomar?",
     "answers": [
       "1 litro .",
@@ -2755,12 +2865,26 @@ const OFFICIAL_QUESTIONS = [
       "100 mililitros. 206. A la capacidad de un test para detectar la enfermedad, se la denomina: A) Especificidad. B) Sensibilidad. C) Eficacia. D) Eficiencia."
     ],
     "correct": 3,
+    "explanation": "1mol de HCl (ac.clorhídrico) tiene 1 equivalentes gramos (tiene 1 H+). 0’1N/1=0’1 Molar. Como tengo la misma concentración inicial que final, el volumen es el mismo, 100ml"
+  },
+  {
+    "id": 206,
+    "theme": "Tema 1",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
+    "text": "A la capacidad de un test para detectar la enfermedad, se la denomina:",
+    "answers": [
+      "Especificidad.",
+      "Sensibilidad.",
+      "Eficacia.",
+      "Eficiencia."
+    ],
+    "correct": 0,
     "explanation": ""
   },
   {
     "id": 207,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es un PNT (Procedimiento normalizado de trabajo)?",
     "answers": [
       "Es una revista sanitaria.",
@@ -2774,7 +2898,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 208,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Necesitaremos utilizar una disolución de ácido sulfúrico H₂SO₄ 0,05 Normal ¿cuál de las soluciones que se indi can a continuación podría servirnos, por ser equivalente?",
     "answers": [
       "0,1 Molar.",
@@ -2783,12 +2907,12 @@ const OFFICIAL_QUESTIONS = [
       "0,005 Molar."
     ],
     "correct": 2,
-    "explanation": ""
+    "explanation": "1mol de H2SO4 (ac.sulfúrico 2atomos H 1atomo azufre 4atomos O) tiene 2 equivalentes gramos (tiene 2 H+), la molaridad será la mitad al dividir 0’5 entre 2 (nº equivalentes gramos)."
   },
   {
     "id": 209,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Al representar un control gráficamente, cuando en el eje X se representa los días del mes y en el eje Y se representa el valor de la media y sus desviaciones estándar, ¿nos referimos al gráfico de?:",
     "answers": [
       "Gráfico de Levy -Jennings.",
@@ -2802,7 +2926,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 210,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes anticoagulantes actúa inhibiendo la acción de la trombina?:",
     "answers": [
       "Las sales de EDTA.",
@@ -2816,7 +2940,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 211,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el caso de un suero con hemólisis, ¿en qué parámetro analítico de los siguientes existe una importante interferencia debido a su liberación?",
     "answers": [
       "Lactato deshidrogenasa.",
@@ -2830,7 +2954,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 212,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para establecer el nivel de precisión que los laboratorios deben alcanzar, se han desarrollado diversos criterios y métodos a lo largo del tiempo. Señale cuál de los siguientes NO es uno de ellos:",
     "answers": [
       "Criterio de Tonks",
@@ -2844,7 +2968,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 213,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Qué parámetro NO se determina mediante dispositivos POCT (Point of Care Testing)?",
     "answers": [
       "Hematocrito.",
@@ -2858,7 +2982,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 214,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Qué variables se deben controlar durante el transporte y conservación de muestras biológ icas?",
     "answers": [
       "Trazabilidad.",
@@ -2872,7 +2996,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 215,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Entre las causas más frecuentes de rechazo de muestras se encuentra:",
     "answers": [
       "Lipidemia.",
@@ -2886,7 +3010,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 216,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El grado en el que la medida obtenida se aproxima al valor real se denomina:",
     "answers": [
       "Precisión.",
@@ -2900,7 +3024,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 217,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto a los múltiplos y submúltiplos de las unidades básicas, el prefijo “Pico” con abreviatura “p” corresponde a la equivalencia:",
     "answers": [
       "10-3.",
@@ -2914,7 +3038,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 218,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En relación con los criterios de obtención de muestras, todas las afirmaciones son ciertas, excepto:",
     "answers": [
       "Confirmar la identidad del paciente.",
@@ -2928,7 +3052,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 219,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En la capacidad de una prueba analítica, para no dar positividad, cuando se aplica al estudio de las muestras que no contienen el analito, estamos hablando de:",
     "answers": [
       "Especificidad.",
@@ -2942,7 +3066,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 220,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Los controles internos y externos se encuentran dentro de:",
     "answers": [
       "Fase preanalítica.",
@@ -2954,9 +3078,74 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 221,
+    "theme": "Tema 1",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
+    "text": "El anticoagulante de elección para las pruebas de coagulación es:",
+    "answers": [
+      "Citrato sódico.",
+      "EDTA.",
+      "Heparina de litio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 222,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "El laboratorio de bioquímica, donde se determinará la glucosa, ha participado en un programa de control de calidad externo (CCE). Cuando se ha procesado la muestra control, se ha obtenido un resultado de 90 mg/dL de glucosa. Cuando el organizador del programa envía el informe de evaluación, se comprueba que los laboratorios que participan con el mismo método han obtenido una media de glucosa para ese control de 100 mg/dL. ¿Cuál es el error total o inexactitud obtenida?",
+    "answers": [
+      "Ninguno.",
+      "-10.",
+      "10 %."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 223,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué ventaja tiene realizar las determinaciones bioquímicas urgentes en una muestra de plasma en lugar de en una muestra de suero?:",
+    "answers": [
+      "Los resultados son más fiables al disminuir la variabilidad intraindividual.",
+      "Impide la hemólisis de la muestra y por ello evita interferencias entre los distintos tests.",
+      "Disminuye el tiempo de respuesta de los resultados."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 224,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la respuesta correcta. Respecto a los documentos de calidad:",
+    "answers": [
+      "El manual de calidad es el documento básico sobre el que se articula todo el Sistema de Gestión de Calidad. En él se resumen todos los procedimientos y la interacción de los procesos que se realizan.",
+      "En los planes de calidad se debe dejar constancia de que la organización y el Sistema de",
+      "Los procedimientos específicos explican cómo se utiliza un determinado equipo y muestran la estrategia de la organización."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 225,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La eficiencia, como criterio para la asignación de los recursos:",
+    "answers": [
+      "Relaciona los recursos empleados con los resultados obtenidos.",
+      "Mide la capacidad genérica que tiene un tratamiento para alcanzar los resultados de salud deseados.",
+      "Mide la capacidad específica que tiene un tratamiento para resolver el problema de un paciente concreto."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 226,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Cuál es la principal diferencia entre el suero y el plasma?",
     "answers": [
       "El suero contiene fibrinógeno.",
@@ -2970,7 +3159,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 227,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señala la correcta:",
     "answers": [
       "El personal técnico del laboratorio no tiene competencias en el mantenimiento de equipos, ya que corresponde esa tarea al coordinador o supervisor en su caso.",
@@ -2984,7 +3173,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 228,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De la siguiente relación: 5, 2, 0, 6, 3, 1, 1, 3, 1, 4. ¿Cuál es la Median a y la Moda?",
     "answers": [
       "La moda es 5 y la mediana 2,5.",
@@ -2998,7 +3187,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 229,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "El grado de ausencia de error aleatorio se conoce como:",
     "answers": [
       "Confiabilidad.",
@@ -3012,7 +3201,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 230,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La probabilidad de que una prueba resulte positiva cuando existe una enfermedad, se conoce como:",
     "answers": [
       "Exactitud.",
@@ -3026,7 +3215,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 231,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué norma internacional de calidad para un laboratorio de análisis y de calibración, tiene en cuenta las fases de pre -analítica, analítica y post - analítica?",
     "answers": [
       "ISO 17025.",
@@ -3040,7 +3229,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 232,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La mezcla homogénea de dos o más sustancias es conocida como:",
     "answers": [
       "Dilución",
@@ -3054,7 +3243,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 233,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Hablamos de error de método cuando:",
     "answers": [
       "Depende del técnico que está rea lizando el análisis.",
@@ -3068,7 +3257,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 234,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Cómo hay que actuar para obtener el suero de una muestra?",
     "answers": [
       "Centrifugar inmediatamente el tubo de sangre sin aditivos.",
@@ -3082,7 +3271,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 235,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Cómo se denomina la capacidad de diferenciar dos señales muy parecidas del mismo analito?",
     "answers": [
       "Sensibilidad.",
@@ -3096,7 +3285,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 236,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿De qué pasos consta la fase preanalítica?",
     "answers": [
       "Identificación y manipulación de muestras.",
@@ -3110,7 +3299,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 237,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La mayoría de los errores en el laboratorio se producen...",
     "answers": [
       "...en la fase analítica.",
@@ -3124,7 +3313,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 238,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cómo se denomina el promedio de un conjunto finito de datos?",
     "answers": [
       "Media.",
@@ -3138,7 +3327,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 239,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué son las auditorias en los laboratorios?",
     "answers": [
       "Son procesos independientes.",
@@ -3152,7 +3341,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 240,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "El citrato sódico se utiliza como anticoagulante en tubos de muestra sanguínea para…",
     "answers": [
       "…pruebas bioquímicas.",
@@ -3166,7 +3355,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 241,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale la respuesta correcta en cuanto a la dilución a 1/6:",
     "answers": [
       "20 μl de muestra y 100 μl de diluyente.",
@@ -3180,7 +3369,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 242,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Qué tubo debe utilizarse para la determinación de la hormona adrenocorticotrópica (ACTH)?",
     "answers": [
       "Suero.",
@@ -3189,12 +3378,90 @@ const OFFICIAL_QUESTIONS = [
       "Plasma EDTA y aprotinina. Página 25 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases"
     ],
     "correct": 3,
+    "explanation": "es una hormona lábil, que requiere su extracción en plasma y rápida congelación. La mayoría de las veces se extrae con EDTA, pero el tubo recomendado es tubo EDTA aprotinina (tapón rosa= tubo recomendado para hormonas lábiles)"
+  },
+  {
+    "id": 243,
+    "theme": "Tema 1",
+    "subtheme": "1 ★ Calibración y control de calidad",
+    "text": "El error que se origina por causas accidentales, difíciles de determinar y que puede influir en cualquier resultado se denomina:",
+    "answers": [
+      "Error Sistemático.",
+      "Error Aleatorio.",
+      "Error Total."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 244,
+    "theme": "Tema 1",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
+    "text": "Entre los siguientes metabolitos, ¿Cuál se vería “Poco Afectado” por la hemólisis?",
+    "answers": [
+      "LDH.",
+      "Calcio.",
+      "Potasio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 245,
+    "theme": "Tema 1",
+    "subtheme": "1 ★ Calibración y control de calidad",
+    "text": "Los patrones de referencia:",
+    "answers": [
+      "Se utilizarán para la calibración de los equipos de medida.",
+      "No son utilizados nunca en los laboratorios.",
+      "Serán calibrados por el Laboratorio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 246,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la afirmación incorrecta:",
+    "answers": [
+      "En la evaluación del control de calidad interno, las reglas Westgard permiten avisar y crear alarmas a fin de evaluar y/o rechazar series analíticas.",
+      "Las gráficas de Levey-Jennings se emplean para evaluar el control de calidad externo.",
+      "El control de calidad interno en el laboratorio nos permite valorar la precisión de nuestro método."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 247,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué es una curva de calibración?",
+    "answers": [
+      "Gráfica que relaciona la concentración de soluciones de estándar de concentraciones conocidas, con la absorbancia de cada uno de ellos a la longitud de onda máxima.",
+      "Gráfica que relaciona la dispersión de soluciones de estándar de concentraciones conocidas, con la absorbancia de cada uno de ellos a la longitud de onda máxima.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 248,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La forma más sencilla de registrar los datos de un control de calidad (QC) es a través de gráficos, ¿Qué gráficos no son empleados habitualmente en los laboratorios?",
+    "answers": [
+      "Bayes.",
+      "Youden.",
+      "Levey- Jennings."
+    ],
+    "correct": 0,
     "explanation": ""
   },
   {
     "id": 249,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale la respuesta correcta sobre la norma UNE EN ISO 17025",
     "answers": [
       "Es la form a de acreditación de los laboratorios de ensayo y calibración.",
@@ -3208,7 +3475,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 250,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale la resp uesta incorrecta sobre el error aleatorio:",
     "answers": [
       "Se produce como consecuencia de la imprecisión del proceso de medida.",
@@ -3222,7 +3489,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 251,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De las siguientes definiciones señale la incorrecta:",
     "answers": [
       "Efecto matriz: Influencia de una propiedad de la muestra distinta de la magnitud en la medición.",
@@ -3236,7 +3503,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 252,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En rela ción a parámetros estadísticos ¿Cuál de las siguientes es una medida de tendencia central?",
     "answers": [
       "Varianza",
@@ -3250,7 +3517,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 253,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El objetivo de la formación de alícuotas es:",
     "answers": [
       "Clasificación de la muestra.",
@@ -3264,7 +3531,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 254,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Poner a punto y verificar los equipos de análisis y mantenimiento es un objetivo:",
     "answers": [
       "Del proceso analítico.",
@@ -3278,7 +3545,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 255,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "Para diluir un espécimen de suero 1:10 quedando un volumen final de 1 mL:",
     "answers": [
       "Se toma un volumen del espécimen de 0,1 ml y se llega al volumen final añadiendo 1 mL de diluyente",
@@ -3292,7 +3559,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 256,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Indique cuál es una medida de tendencia central en una distribución de datos:",
     "answers": [
       "Coeficiente de variación",
@@ -3306,7 +3573,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 257,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Indique como produce el EDTA (etilendiaminotetraacetato) su efecto anticoagulante:",
     "answers": [
       "Diluyendo la sangre",
@@ -3320,7 +3587,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 258,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Según la OMS las m uestras biológicas transportadas desde el punto de extracción hasta el laboratorio se clasifican como ...",
     "answers": [
       "sustancias infecciosas de categoría A",
@@ -3332,9 +3599,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 259,
+    "theme": "Tema 1",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
+    "text": "Indique cuál de los siguientes supuestos no justifica el rechazo de una muestra:",
+    "answers": [
+      "Muestra de EDTA para hemograma coagulada",
+      "Muestra sin identificar",
+      "Muestra en tubo de citrato para coagulación lleno por la mitad",
+      "Muestra en tubo seco (tapón rojo) para bioquímica coagulado"
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 260,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es un laboratorio \"CORE\"?",
     "answers": [
       "Equipos portátiles en la cabecera del paciente",
@@ -3348,7 +3629,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 261,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es la diferencia entre acreditación y certificación ISO?",
     "answers": [
       "La certificación informa sobre el sistema de gestión de calidad de una organización, mientras que la acreditación informa sobre la competencia técnica para ejecutar actividades concretas",
@@ -3362,7 +3643,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 262,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿En qué tipo de organizaciones se puede aplicar la Norma ISO 15189: 2022 ?",
     "answers": [
       "En laboratorios",
@@ -3376,7 +3657,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 263,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es un control externo? Página 27 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "Es un control de valor conocido con el que comparamos los resultados con otros laboratorios con condiciones iguales a las nuestras",
@@ -3390,7 +3671,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 264,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué error de la fase post -analítica podría comprometer la seguridad del paciente?",
     "answers": [
       "Muestra que llega al laboratorio sin identificar",
@@ -3404,7 +3685,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 265,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al control de calidad interno, señale la respuesta CORRECTA:",
     "answers": [
       "El laboratorio debe disponer de un programa de control de calidad interno para ev aluar de forma continuada sus actividades .",
@@ -3418,7 +3699,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 266,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al control de calidad externo, señale la respuesta CORRECTA:",
     "answers": [
       "Al realizar los controles de calidad internos ya no son necesarios los externos.",
@@ -3432,7 +3713,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 267,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El procedimiento por el cual un organismo nacional reconoce formalmente que una entidad o persona es competente para realizar tareas específicas, se llama:",
     "answers": [
       "Validación.",
@@ -3446,7 +3727,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 268,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Dentro del laboratorio de urgencias, ¿cuál de las siguientes magnitudes biológicas NO se considera urgente?",
     "answers": [
       "Troponina.",
@@ -3460,7 +3741,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 269,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "En cuanto al error aleatorio, señale la respuesta CORRECTA:",
     "answers": [
       "Es directamente proporcional a la precisión.",
@@ -3474,11 +3755,10 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 270,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Entre las competencias profesionales, personales y sociales de un Técnico Superior de Laboratorio de Diagnóstico Clínico (TSLDC) está:",
     "answers": [
       "Proporcionar a los pacientes un ambiente ordenado, limpio y seguro.",
-      "",
       "está: A) Proporcionar a los pacientes un ambiente ordenado, limpio y seguro. B) Evaluar la coherencia y fiabil idad de los resultados obtenidos en los análisis utilizando aplicaciones informáticas . C) Tener a cargo el control de los archivos de las historias clínicas.",
       "Para la realización de las técnicas no se seguirán los protocolos normalizados de trabajo (PN T) ni se cumplirán las normas de calidad. Página 28 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases"
     ],
@@ -3488,7 +3768,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 271,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "¿Cuál NO es una ventaja del autoanalizador?",
     "answers": [
       "Aumenta la precisión.",
@@ -3502,7 +3782,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 272,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué valores críticos hay que informar después de comprobarlos?",
     "answers": [
       "Hemoglobina por debajo de 5 mg/dl.",
@@ -3516,7 +3796,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 273,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Un concentrado de hematíes se puede hemolizar por alguna de las siguientes causas:",
     "answers": [
       "Por una infusió n simultánea con determinados medicamentos.",
@@ -3530,7 +3810,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 274,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes NO se considera un criterio de rechazo de una m uestra de laboratorio?",
     "answers": [
       "Tubo y volante no coincidente.",
@@ -3544,7 +3824,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 275,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al Control de Calidad Interno (CCI), ¿cuál de las siguientes afirmaciones es FALSA?",
     "answers": [
       "Se d ebe procesar a diario o siempre que midamos esa magnitud en muestras de pacientes.",
@@ -3556,9 +3836,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 276,
+    "theme": "Tema 1",
+    "subtheme": "1 ★ Calibración y control de calidad",
+    "text": "En relación a los conceptos estadísticos relacionados con el control de calidad, elegir la respuesta correcta con respecto al error aleatorio:",
+    "answers": [
+      "Es un concepto similar al error sistemático.",
+      "Se produce como consecuencia de la imprecisión del procedimiento.",
+      "Viene determinados por factores controlables del procedimiento.",
+      "Es la diferencia entre el resultado obtenido y el valor verdadero."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 277,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale la respuesta correcta respecto a los valores críticos:",
     "answers": [
       "Cuando se realiza una comunicación vía telefónica no es obligatorio confirmar la recepción de esa informac ión.",
@@ -3572,7 +3866,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 278,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué valores críticos hay que informar después de comprobarlos?:",
     "answers": [
       "Hb. por debajo de 5 mg/dl.",
@@ -3586,7 +3880,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 279,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El intervalo de linealidad o de determinación de un método es:",
     "answers": [
       "El intervalo de concentración más fiable de medida para la determinación analítica del analito.",
@@ -3600,7 +3894,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 280,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La capacidad de un método analítico para determinar exclusivamente el componente que se quiere medir se denomina:",
     "answers": [
       "Especificidad",
@@ -3614,7 +3908,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 281,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "A que se denomina Exactitud:",
     "answers": [
       "Capacidad de determinar un analito en forma eficaz.",
@@ -3628,7 +3922,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 282,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Queremos diluir un suero a una dilución 1/5. Teniendo en cuenta que el volumen final de muestra es de 1 ml, ¿Qué cantidad de suero y diluyente son necesarios?",
     "answers": [
       "250 ml de suero y 750 de diluyente",
@@ -3642,7 +3936,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 283,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Para un volumen final de 800 microlitros ¿Cómo se realiza una dilución 1/40?:",
     "answers": [
       "100 microlitros de muestra en 700 microlitros de diluyente.",
@@ -3654,9 +3948,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 284,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Dependiendo de las determinaciones solicitadas, se introducirá la muestra en tubos con diferentes aditivos, y sabemos que:",
+    "answers": [
+      "El hemograma se hace siempre en tubo con EDTA K7.",
+      "El tubo para el estudio de coagulación lleva citrato de sodio de aditivo.",
+      "Todas las determinaciones del perfil bioquímico sólo se pueden hacer en suero.",
+      "El aditivo del tubo de tapón de color azul siempre será heparina de sodio o de litio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 285,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Al conjunto de operaciones que se realiza de manera periódica y programada sobre un instrumento analítico, con el fin de prevenir fallos, deterioros, averías o mal funcionamiento de los equipos, se denomina:",
     "answers": [
       "Calibración.",
@@ -3670,7 +3978,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 286,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale el criterio de rechazo de solicitud de pruebas, al no garantizarse la identificación inequívoca del paciente y sus muestras:",
     "answers": [
       "Solicitud con datos del paciente ilegibles.",
@@ -3684,7 +3992,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 287,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La capacidad de un método analítico para determinar exclusivamente el componente que se quiere medir se denomina:",
     "answers": [
       "Especificidad.",
@@ -3698,7 +4006,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 288,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La desviación estándar de un nivel de control de calidad de sodio, en el que la media es 144 mEq/l y el rango 129 -159 mEq/l es:",
     "answers": [
       "7.5",
@@ -3707,12 +4015,12 @@ const OFFICIAL_QUESTIONS = [
       "5"
     ],
     "correct": 3,
-    "explanation": ""
+    "explanation": "finalmente dieron la D pero no estoy de acuerdo. La media es 144, para calcular cuál es la desviación estándar se coge uno de los dos valores del extremo del intervalo y se resta, y luego se divide entre 2. P.ej.: 159-144=15 15/2=7,5. Dieron la D al considerar 3 desviaciones estándar. 15/3=5"
   },
   {
     "id": 289,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El transporte de las mue stras desde Atención Primaria al Laboratorio, debe cumplir unas normas. ¿Cuál de las siguientes afirmaciones es FALSA?",
     "answers": [
       "El contenedor con las muestras debe ir adecuadamente situado en el vehículo de transporte, para que no pueda moverse.",
@@ -3726,7 +4034,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 290,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "Para un volumen final de 800 microlitros, ¿cómo se realiza una dilución 1/40?",
     "answers": [
       "100 microlitros de muestra en 700 microlitros de diluyente.",
@@ -3735,12 +4043,12 @@ const OFFICIAL_QUESTIONS = [
       "20 microlitros de muestra en 780 microlitros de diluyente ."
     ],
     "correct": 3,
-    "explanation": ""
+    "explanation": "sería 20/(780+20) = 20/800 = 1/40. Hay que hacer las cuentas en papel en el examen!"
   },
   {
     "id": 291,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Varón de 39 años que acude a urgencias por fiebre alta sin otra sintomatología acompañante. Sin antecedentes personales de interés. Se solicita analítica al Laboratorio de Urgencias, y se obtienen los siguientes resultados: Glucosa: 85 mg/dL (70- 110), Urea: 26 mg/dL (10 -50), Creatinina: 0.83 mg/dL (0.73 -1.3), Potasio: 7 mEq/L (3.5 -5), Sodio: 135 mEq/L (135 -145). Hemograma con resultados dentro de la normalidad. El resultado de Potasio obtenido está considerado un Valor Crítico en su Laborator io. ¿Cuál debería ser la primera actuación del TEL de Urgencias?",
     "answers": [
       "Se debe comunicar el resultado al profesional sanitario al cargo de este paciente, con la mayor inmediatez.",
@@ -3754,7 +4062,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 292,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El protocolo de comunicación de Valores Críticos debe tener en cuenta:",
     "answers": [
       "El personal responsable de la comunicación , no siendo necesario especificar el receptor con tal de que llegue el mensaje.",
@@ -3768,7 +4076,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 293,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En la implantación de un sistema de comunicación de Valores Críticos en el Laboratorio, es FALSO que:",
     "answers": [
       "Sólo es necesario consensuar el protocolo con los clínicos de Atención Primaria, ya que los de Especializada pueden consultar con mayor precocidad la evoluc ión del paciente.",
@@ -3782,7 +4090,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 294,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En relación con los controles de calidad internos, señale la afirmación correcta: Página 31 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "Los co ntroles internos se utilizan para asegurar que los valores obtenidos en las muestras sean fiables.",
@@ -3796,7 +4104,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 295,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "A partir del suero de un paciente, se debe hacer una dilución al 1:25 obteniendo un volumen final de 500 μL. ¿Cuáles serían los volúmenes a utilizar?",
     "answers": [
       "25 μL de suero y 475 μL de diluyente.",
@@ -3805,12 +4113,207 @@ const OFFICIAL_QUESTIONS = [
       "15 μL de suero y 485 μL de diluyente."
     ],
     "correct": 1,
+    "explanation": "20/(480+20) serían 20/500 que es lo mismo que 1/25"
+  },
+  {
+    "id": 296,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Mientras tanto, en el laboratorio de urgencias, el técnico especialista, siguiendo el programa de control de calidad indicado, se dispone a introducir en el autoanalizador el control de calidad interno.",
+    "answers": [
+      "Que sea un material cuya matriz sea similar a las muestras de los pacientes.",
+      "Que sea monoconstituyente, de manera que no pueda ser utilizado más que para controlar una prueba cada vez.",
+      "Que venga suministrado por el fabricante de los equipos y reactivos."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 297,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué herramienta puede ser útil para una correcta, clara y rápida visualización de la validez de un resultado de un control de calidad?",
+    "answers": [
+      "El coeficiente de variación.",
+      "El error sistemático.",
+      "La gráfica de Levey-Jennings."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 298,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "De los siguientes procesos cuál NO forma parte de la fase preanalítica del laboratorio:",
+    "answers": [
+      "Preparación del paciente.",
+      "Transporte de muestras.",
+      "Mantenimiento de equipos y autoanalizadores."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 299,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué dato NO sería necesario para el análisis de la muestra?",
+    "answers": [
+      "Tipo de muestra.",
+      "Perfil analítico.",
+      "Datos personales."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 300,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la opción verdadera respecto a la norma UNE- EN-ISO 15189:",
+    "answers": [
+      "Es una norma de acreditación específica para los laboratorios clínicos. Incluye los requisitos de gestión de la calidad y los requisitos que deben cumplir los laboratorios clínicos para obtener el reconocimiento externo de la competencia técnica para la realización de análisis. AENOR es el organismo que acredita a los laboratorios clínicos según esta norma.",
+      "Es una norma de certificación específica para los laboratorios clínicos. Incluye los requisitos de gestión de la calidad y los requisitos que deben cumplir los laboratorios clínicos para obtener el reconocimiento externo de la competencia técnica para la realización de análisis. ENAC es el organismo que certifica a los laboratorios clínicos según esta norma.",
+      "Es una norma de acreditación específica para los laboratorios clínicos. Incluye los requisitos de gestión de la calidad y los requisitos que deben cumplir los laboratorios clínicos para obtener el reconocimiento externo de la competencia técnica para la realización de análisis. ENAC es el organismo que acredita a los laboratorios clínicos según esta norma."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 301,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale el enunciado correcto respecto a las normas ISO:",
+    "answers": [
+      "UNE-EN ISO 9001:2008 sobre «Sistemas de Gestión de Calidad. Fundamentos y vocabulario».",
+      "UNE-EN ISO/IEC 17025:2005 sobre «Evaluación de la conformidad. Requisitos generales para la competencia de los laboratorios de ensayo y de calibración».",
+      "UNE-EN ISO 15001:2007 sobre «Laboratorios clínicos. Requisitos particulares para la calidad y la competencia»."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 302,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "A la hora de registrar una muestra en el laboratorio:",
+    "answers": [
+      "Debe hacerlo personalmente el médico que lo solicita.",
+      "No se debe registrar la fecha de petición.",
+      "Se le asigna siempre un número de entrada al laboratorio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 303,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué indicador se obtiene en los programas de control de calidad externo?",
+    "answers": [
+      "Coeficiente de variación.",
+      "Eficacia analítica.",
+      "Error total."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 304,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "El material cuya concentración es conocida y se evalúa con una frecuencia, al menos, diaria y a partir de cuyos resultados se toman decisiones inmediatas sobre los resultados analíticos obtenidos en las muestras de los pacientes se denomina:",
+    "answers": [
+      "Control de calidad interno.",
+      "Control de calidad externo.",
+      "Calibrador."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 305,
+    "theme": "Tema 1",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
+    "text": "El área bajo la curva ROC nos da una idea:",
+    "answers": [
+      "La sensibilidad del test.",
+      "La especificidad del test.",
+      "El poder de discriminación de un test."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 306,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La sensibilidad de una prueba diagnóstica es:",
+    "answers": [
+      "El porcentaje de personas sin la enfermedad que tienen un resultado negativo.",
+      "El porcentaje de personas con la enfermedad que tienen un resultado positivo.",
+      "La proporción de falsos positivos."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 307,
+    "theme": "Tema 1",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
+    "text": "El factor que más interfiere en la determinación de potasio sérico es:",
+    "answers": [
+      "Hemólisis.",
+      "Bilirrubina.",
+      "Lipemia."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 308,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "La Fase Pre-analítica consiste:",
+    "answers": [
+      "En la solicitud de la analítica por parte del clínico únicamente.",
+      "Solamente en la recepción de la muestra por parte del técnico.",
+      "En la solicitud del análisis, recepción y distribución de la muestra."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 309,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Refiriéndonos a la calidad, los recursos humanos con los que cuenta un laboratorio, estarían encuadrados dentro de:",
+    "answers": [
+      "Estructura.",
+      "Proceso.",
+      "Resultado."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 310,
+    "theme": "Tema 1",
+    "subtheme": "1 ★ Calibración y control de calidad",
+    "text": "El error aleatorio de una medida está relacionado con:",
+    "answers": [
+      "Posibles interferencias.",
+      "La imprecisión del procedimiento de medida.",
+      "La veracidad del procedimiento de medida."
+    ],
+    "correct": 0,
     "explanation": ""
   },
   {
     "id": 311,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El documento escrito que describe de forma ordenada y detallada cómo se realiza una determinada actividad rutinaria de carácter técnico, facilitando una mayor uniformidad en la aplicación de los métodos de ensayo y una mayor re petitividad de los resultados, se denomina:",
     "answers": [
       "Registro de control de calidad.",
@@ -3824,7 +4327,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 312,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "¿Cómo se denomina el proceso por el que un organismo autorizado evalúa, verifica y reconoce formal mente que una entidad es competente para realizar unas tareas perfectamente especificadas?:",
     "answers": [
       "Acreditación.",
@@ -3838,7 +4341,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 313,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La fiabilidad de los análisis realizados en un laboratorio de Análisis Clínicos y Microbiología depende de:",
     "answers": [
       "La cantidad de muestras recibidas y procesadas.",
@@ -3852,21 +4355,20 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 314,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes afirmaciones no es correcta sobre el empleo de anticoagulantes?:",
     "answers": [
       "El ácido cítrico -(citrato) -dextrosa (ACD) se recomienda para la realiz ación de estudios inmunofenotípicos leucocitarios y cultivos de médula ósea.",
       "El citrato sódico es un anticoagulante fisiológico, recomendable para la realización de la extensión sanguínea.",
-      "",
       "se recomienda para la realiz ación de estudios inmunofenotípicos leucocitarios y cultivos de médula ósea. B) El citrato sódico es un anticoagulante fisiológico, recomendable para la realización de la extensión sanguínea. C) La heparina es un anticoagulante fisiológico, recomendable pa ra la realización de la extensión sanguínea D) El oxalato sódico es un anticoagulante recomendado para las pruebas de hemostasia."
     ],
     "correct": 2,
-    "explanation": ""
+    "explanation": "la más falsa es la C, pero todas las demás opciones están cogidas con pinzas. La considero impugnable. Al final no la impugnaron en el examen."
   },
   {
     "id": 315,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En la elaboración de los Protocolos Normalizados de Trabajo (PNT), se deben tener en cuenta varias premisas. Indicar cuál de las siguientes respuestas es incorrecta.",
     "answers": [
       "Preferiblemente los PNT deben ser redactados por la misma persona que desarrolla habitualmente la actividad que se describe.",
@@ -3880,7 +4382,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 316,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué nombre reciben los ejercicios interlaboratorios, en los cuales un laboratorio se somete a unas pruebas consistentes en el análisis de muestras de referencia, pata evaluar la calidad de los resultados obtenido por los laboratorios participantes?:",
     "answers": [
       "Gráficos de control.",
@@ -3894,7 +4396,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 317,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto a los gráficos de control de calidad CUSUM, señala la respuesta incorrecta",
     "answers": [
       "En su utilización se distinguen dos etapas: preliminar y de control.",
@@ -3908,7 +4410,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 318,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes funciones corresponde a la dirección de calidad de un laboratorio?",
     "answers": [
       "Establecer la política de la calidad.",
@@ -3922,7 +4424,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 319,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Los resultados obtenidos al pesor un objeto de 5 gramos con 2 balanzas distintas se expresan en la tabla adjunta. Indique cuál de las siguientes afirmaciones es correcta: Balanza 1 Balanza 2 Medición 1 1g 8g Medición 2 9g 7,7g Medició n 3 7g 7,5g Medición 4 3g 8,1g",
     "answers": [
       "La balanza 1 es imprecisa y exacta.",
@@ -3934,9 +4436,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 320,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "¿Qué definición se corresponde con el término \"Aseguramiento de la calidad\"?",
+    "answers": [
+      "Conjunto de las actividades necesarias para el control y mejora de la calidad.",
+      "Parte de la gestión de la calidad orientada a examinar y conocer el grado de cumplimiento de los requisitos establecidos en los procesos.",
+      "Parte de la gestión de la calidad orientada a proporcionar la confianza de que se cumplan los requisitos de calidad exigidos.",
+      "Conjunto de intenciones, fines, objetivos y orientación de una organización, referentes a la calidad."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 321,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al uso de heparina como anticoagulante es incorrecto:",
     "answers": [
       "Actúa como anticoagulante, acelerando la acción de la antitrombina III e inhibiendo -por tanto - el paso de protrombina a trombina en la formación del coágulo.",
@@ -3950,7 +4466,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 322,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "¿Cuál es la principal diferencia entre suero y plasma?",
     "answers": [
       "El suero no contiene fibrinógeno.",
@@ -3964,7 +4480,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 323,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Para la obtención de una muestra, todas las afirmaciones son correctas, excepto:",
     "answers": [
       "Se debe confirmar la identidad del paciente.",
@@ -3978,7 +4494,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 324,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Para evitar contaminación en la muestra, el orden para llenar los tubos debe ser el siguiente:",
     "answers": [
       "Tubo rojo, tubo azul, tubo verde, tubo violeta, tubo gris.",
@@ -3992,7 +4508,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 325,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El correct o funcionamiento del Sistema de Gestión de Calidad en un laboratorio es responsabilidad de:",
     "answers": [
       "Jefe del laboratorio.",
@@ -4006,7 +4522,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 326,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Se define como indicador de calidad a las características que debe cumplir una estructura, un proceso o un resultado para que se pueda considerar de calidad. Indique cuál de las siguientes características debe reunir un indicador de calidad:",
     "answers": [
       "Exigente.",
@@ -4020,7 +4536,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 327,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señala la respuesta correcta en relación con la sensibilidad:",
     "answers": [
       "Es la proporción de individuos enfermos con prueba positiva.",
@@ -4034,7 +4550,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 328,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La Norma ISO 15189 define los requisitos particulares de calidad y competencia que deben cumplir los laboratorios clínicos que analizan muestras biológicas de origen humano, entre ellos se encuentran:",
     "answers": [
       "Personal cualificado. Página 35 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
@@ -4048,7 +4564,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 329,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Un error aleatorio es aquél que:",
     "answers": [
       "Está producido por un fallo sistemático.",
@@ -4062,7 +4578,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 330,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Entre las causas de hemólisis de una muestra no está:",
     "answers": [
       "Extracción dificultosa.",
@@ -4076,7 +4592,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 331,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Entre los errores en la fase preanalítica no tenemos:",
     "answers": [
       "Centrifugación insuficiente o excesiva y alicuotado incorrecto.",
@@ -4090,7 +4606,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 332,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De las siguientes afirmaciones en a la Norma ISO 15189 ¿Cuál es la INCORRECTA?",
     "answers": [
       "Valora la competencia técnica del laboratorio y de los profesionales.",
@@ -4104,7 +4620,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 333,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De las siguientes afirmaciones sobre los errores sistemáticos ¿Cuál es la INCORRECTA?",
     "answers": [
       "Se reproducen siempre al medir y en distintas direcciones.",
@@ -4118,7 +4634,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 334,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes actividades se realizan en la fase preanalítica?",
     "answers": [
       "Preparación de los reactivos.",
@@ -4132,7 +4648,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 335,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De las siguientes afirmaciones sobre diluciones, ¿Cuál es la INCORRECTA?",
     "answers": [
       "Soluto es la sustancia que se disuelve.",
@@ -4146,7 +4662,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 336,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "¿A cuántos litros (L) equivale un femtolitro?",
     "answers": [
       "10ˉ¹² L.",
@@ -4160,7 +4676,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 337,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "De las siguientes respuestas ¿Cuál es la CORRECTA?",
     "answers": [
       "El plasma no contiene factores de la coagulación.",
@@ -4174,7 +4690,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 338,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué parámetro relaciona el coeficiente de variación?",
     "answers": [
       "Variancia y media.",
@@ -4186,9 +4702,48 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 339,
+    "theme": "Tema 1",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
+    "text": "Al terminar su jornada laboral, el técnico de laboratorio ha de realizar un",
+    "answers": [
+      "120 ml.",
+      "60 ml.",
+      "110 ml."
+    ],
+    "correct": 0,
+    "explanation": "C1 x V1 = C2 x V2. 3 x V1 = 2 x 90"
+  },
+  {
+    "id": 340,
+    "theme": "Tema 1",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
+    "text": "En relación con el citrato sódico, señale la correcta:",
+    "answers": [
+      "Se utiliza como anticoagulante en pruebas de hematimetría.",
+      "Inhibe la acetil-CoA carboxilasa.",
+      "Es un quelante del calcio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 341,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Un sistema de gestión de calidad (SGC):",
+    "answers": [
+      "Es un conjunto de actividades planificadas y controladas que se realizan sobre un conjunto de elementos para lograr la calidad de los productos o servicios que se ofrecen al cliente.",
+      "Es un modelo dirigido que pone de manifiesto los errores o desviaciones",
+      "Es un conjunto de normas de obligado cumplimiento para poder desarrollar una actividad."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 342,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El valor predictivo negativo puede ser definido como:",
     "answers": [
       "La probabilidad de enfermedad en un paciente con una prueba negativa.",
@@ -4202,7 +4757,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 343,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Seleccione la definición correcta de “prevalencia de una enfermedad”:",
     "answers": [
       "El porcentaje de resultados positivos en una población.",
@@ -4216,7 +4771,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 344,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Respecto a las curvas ROC:",
     "answers": [
       "Son índices de la especificidad diagnóstica de una prueba.",
@@ -4230,7 +4785,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 345,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Si un laboratorio clínico se quisiera certificar ¿qué Norma ISO implantaría?",
     "answers": [
       "ISO 9001:2015",
@@ -4244,7 +4799,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 346,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El procedimiento por el que un organismo rector reconoce formalmente que un organismo o una persona es competente para llevar a cabo tareas específicas se denomina:",
     "answers": [
       "Acreditación.",
@@ -4258,7 +4813,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 347,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La precisión de un m étodo de medida:",
     "answers": [
       "Se refiere a la concordancia entre el valor medido de una serie de determinaciones y el valor verdadero.",
@@ -4272,7 +4827,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 348,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Cuál de las siguientes afirmaciones sobre el control de calidad interno es FALSA: Página 37 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "Controla la calidad utilizando solamente los resultados obtenidos por el propio laboratorio.",
@@ -4286,7 +4841,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 349,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale el tipo de error menos frecuente en los sistemas POCT:",
     "answers": [
       "Preanalítico.",
@@ -4300,7 +4855,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 350,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Uno de los siguientes aspectos NO es un inconveniente de los sistemas POCT:",
     "answers": [
       "La inexactitud.",
@@ -4314,7 +4869,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 351,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Valora ndo la experiencia de los centros que han puesto en marcha programas para realizar POCT, el principal criterio para la implantación de este tipo de mediciones suele ser:",
     "answers": [
       "Tiempo de respuesta.",
@@ -4328,7 +4883,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 352,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es mayor inconveniente con respecto a las pruebas de laboratorio en el lugar de atención al paciente?",
     "answers": [
       "No suelen ser trazables con los del laboratorio principal debido a las diferencias bioquímicas entre las fuentes de obtención de las muestras.",
@@ -4342,7 +4897,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 353,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El grado en el que una intervención produce un resultado beneficioso en las condiciones reales de la práctica habitual, se conoce como:",
     "answers": [
       "Eficacia",
@@ -4356,7 +4911,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 354,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Ante un resultado crítico:",
     "answers": [
       "El laboratorio debe informar solo si el paciente está ingresado",
@@ -4370,7 +4925,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 355,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Si se realizan 10 determinaciones de Calcio en una única muestra de suero, los resultados no serán todos iguales debido a:",
     "answers": [
       "Inexa ctitud",
@@ -4384,7 +4939,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 356,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "De los siguientes aspectos, indique cuál es un indicador de la fase post -analítica:",
     "answers": [
       "Identificación incorrecta del paciente en las muestras.",
@@ -4398,7 +4953,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 357,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes medidas se considera como medida de posición?:",
     "answers": [
       "Coeficiente de variación.",
@@ -4412,7 +4967,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 358,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Una de las siguientes afirm aciones es falsa:",
     "answers": [
       "Bajo ningún concepto se debe dejar de comunicar un valor crítico.",
@@ -4426,7 +4981,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 359,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué afirmación no es correcta con respecto a las recomendaciones de orden de llenado de tubos de extracción?:",
     "answers": [
       "Los tubos y fras cos estériles para hemocultivo deben extraerse en primer lugar.",
@@ -4440,7 +4995,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 360,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "L a sensibilidad de una prueba diagnóstica p ara una enfermedad se obtiene multiplicando por 100 el siguiente cociente:",
     "answers": [
       "Verdaderos negativos dividido entre la suma de sujetos sanos.",
@@ -4454,7 +5009,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 361,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Las diferencias entre certificación y acreditación estriban en",
     "answers": [
       "Una organización certificada ISO 9001 ha demostrado que su sistema de ge stión de calidad cumple los requisitos establecidos en la norma ISO 9001 mientras que una organización acreditada ha demostrado su competencia para llevar a cabo las actividades de evaluación para las que esté acreditado.",
@@ -4468,7 +5023,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 362,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La implementación de un sistema de gestión de control de calidad basado en los Internacional Está ndar (ISO) constituye una herramienta para evaluar y controlar los sistemas de POCT. Señale la respuesta CORRECTA.",
     "answers": [
       "La norma internacional ISO 22870 proporciona requerimientos específicos aplicables a los sistemas de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189.",
@@ -4482,7 +5037,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 363,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señale la respuesta FALSA en cuanto al archivo muestras: Página 39 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "El tiempo y las condiciones del archivo temporal vendrán reflejadas para cada muestra y/o prueba en la cartera de servicios.",
@@ -4496,7 +5051,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 364,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Se define “valor de referencia” como:",
     "answers": [
       "El conjunto de todos los posibles individuos de referencia.",
@@ -4510,7 +5065,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 365,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En la preparación de los sujetos para la determinación de los valores de referencia hay que tener en cuenta los siguientes factores:",
     "answers": [
       "Factores biológicos: metabólicos, hemodinámicas, inducció n enzimática, daño celular.",
@@ -4524,7 +5079,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 366,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La determinación de valores de referencia en un laboratorio clínico se hace necesario fundamentalmente:",
     "answers": [
       "Periódicamente.",
@@ -4538,7 +5093,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 367,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Generalmente se suele definir el intervalo de referencia como el intervalo de resultados que comprenden:",
     "answers": [
       "Un 55% de la probabilidad total.",
@@ -4552,7 +5107,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 368,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Las pruebas reflejas:",
     "answers": [
       "Son las incluidas en un mismo perfil.",
@@ -4566,7 +5121,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 369,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el proceso de revisión y validación, se denomina “delta check” a:",
     "answers": [
       "Los valores de referencia (valores normales) en función de la edad y el sexo.",
@@ -4580,7 +5135,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 370,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El resultado aislado más pequeño que, c on una determinada probabilidad, se puede distinguir de un blanco, se denomina:",
     "answers": [
       "Límite de detección.",
@@ -4594,7 +5149,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 371,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La precisión de un resultado analítico es:",
     "answers": [
       "Reproducibilidad.",
@@ -4608,7 +5163,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 372,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Indica el número ONU que corresponde a «materia biológica, clase B»",
     "answers": [
       "Núm. ONU 2814",
@@ -4622,7 +5177,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 373,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Indica la frase verdadera respecto al transporte de muestras biológicas:",
     "answers": [
       "El transporte de muestras biológicas en España lo regula la normativa ADR.",
@@ -4634,9 +5189,22 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 374,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "En relación a la estabilidad de los analitos señale la respuesta incorrecta:",
+    "answers": [
+      "El uso del gel separador disminuye la estabilidad de los diferentes constituyentes de las muestras.",
+      "La refrigeración a 4ºC prolonga la estabilidad de numerosos analitos.",
+      "Es conveniente separar el plasma o el suero de las células lo antes posible y realizar las determinaciones analíticas durante las 5 horas siguientes a la extracción."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 375,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En el sistema básico de embalaje envasado/triple, señale la respuesta falsa.",
     "answers": [
       "El recipiente primario el cual contiene la sustancia infecciosa debe ser hermético e impermeable.",
@@ -4650,7 +5218,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 376,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Con qué indicador o parámetro estadístico debería medirse un error constante y en un mismo sentido de una determinada magnitud biológica medida en el laboratorio?:",
     "answers": [
       "Desviación estándar y coeficiente de variación",
@@ -4664,7 +5232,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 377,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué se persigue con la eficiencia en el medio sanitario?:",
     "answers": [
       "Conseguir los mejores resultados con los menores costes posibles",
@@ -4678,7 +5246,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 378,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es la eficacia?:",
     "answers": [
       "Relación existente entre los esfuerzos y los recursos utilizados.",
@@ -4692,7 +5260,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 379,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "La probabilidad de que una persona con un resultado negativo en una prueba diagnóstica esté realmente sano se denomina:",
     "answers": [
       "Valor predictivo positivo",
@@ -4706,7 +5274,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 380,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Las relaciones entre el coste de una activida d y el efecto que produce sobre la salud se conoce como: Página 41 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
     "answers": [
       "Productividad.",
@@ -4720,7 +5288,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 381,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La eficiencia de un sistema:",
     "answers": [
       "Mide el grado de consecución de los objetivos propuestos sin tener en cuenta el coste empleado.",
@@ -4734,7 +5302,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 382,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En una prue ba diagnóstica, a la proporción de individuos sanos que tiene una prueba negativa se denomina:",
     "answers": [
       "Sensibilidad",
@@ -4748,7 +5316,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 383,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El modelo de calidad total o modelo EFQM:",
     "answers": [
       "No se puede aplicar a lo s laboratorios clínicos.",
@@ -4762,7 +5330,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 384,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cómo es también conocida la auditoría de tercera parte?",
     "answers": [
       "Auditoría interna.",
@@ -4776,7 +5344,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 385,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Formo parte de un equipo de trabajo en un laboratorio clínico, hay diversos problemas que debemos identificar y analizar. Para ello emplearemos diversas técnicas, pero sólo una de las siguientes será l a idónea para ayudarnos a decidir que problemas resolver primero y a identificarlos según el principio de \"pocos vitales, muchos triviales\":",
     "answers": [
       "Diagrama de Grandal",
@@ -4788,9 +5356,35 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 386,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la respuesta correcta. El “ciclo de mejora continua”:",
+    "answers": [
+      "Es una herramienta de control de calidad definida por A. Donabedian en 1950.",
+      "Es una herramienta de mejora de la calidad que concluye con la comprobación de que las actividades se han resuelto bien y que los resultados obtenidos se corresponden con los objetivos.",
+      "Es una herramienta de mejora continua de la calidad para la gestión de una organización. Consta de 4 pasos sucesivos y cíclicos."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "id": 387,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la respuesta correcta. La Joint Commission:",
+    "answers": [
+      "Es la Agencia Americana de Acreditación.",
+      "Es una organización cuya misión es favorecer la implantación de normas ISO de aplicación",
+      "Establece estándares internacionales únicos que permanecen fijos a lo largo del tiempo."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 388,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cómo se llama el modelo eu ropeo de excelencia de gestión de calidad?",
     "answers": [
       "Normas ISO",
@@ -4802,9 +5396,22 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 389,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "En ese mismo día, el laboratorio de Microbiología se va a someter a una auditoría. Antes de que lleguen los auditores, el jefe del servicio decide hacer una comprobación de la documentación y le encarga a usted que haga la tarea de auditor. Si quiere comprobar la seguridad laboral, ¿qué documento de los que se detallan a continuación le sería más útil?",
+    "answers": [
+      "La hoja de ruta, donde se reflejan las condiciones de transporte de las muestras.",
+      "Los PNT, o sea, los protocolos normalizados técnicos, para comprobar las instrucciones",
+      "Las fichas técnicas de algunos productos utilizados en el laboratorio."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 390,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El ciclo de mejora conti nua también conocido como ciclo de Deming, está formado por 4 etapas:",
     "answers": [
       "Planificación, Hacer, Verificar y Actuar.",
@@ -4818,7 +5425,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 391,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El model o EFQM de excelencia puede ser aplicado:",
     "answers": [
       "En organizaciones de servicios.",
@@ -4832,7 +5439,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 392,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Según Donabedian, ¿cuál NO e s un concepto a tener en cuenta en la evaluación de la calidad de la atención sanitaria?",
     "answers": [
       "Estructura.",
@@ -4844,9 +5451,22 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 393,
+    "theme": "Tema 1",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
+    "text": "Señale la afirmación correcta respecto al enfoque sistémico para la evaluación de la calidad asistencial, según A. Donabedian:",
+    "answers": [
+      "La evaluación de los resultados se basa en comprobar si se ha aplicado el conocimiento médico del momento con la tecnología disponible.",
+      "Tiene en cuenta 4 conceptos fundamentales: la estructura, el proceso, la infraestructura y el resultado.",
+      "Es el punto de partida de todos los programas de control de calidad en las organizaciones sanitarias."
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 394,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "El ciclo de Deming consta de cuatro pasos que se han de seguir de forma cíclica. ¿Cuál es el orden correcto?",
     "answers": [
       "Planificación, Intervenci ón, Verificación, Actuación",
@@ -4860,7 +5480,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 395,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Teniendo en cuenta los métodos de evaluación de la calidad: Criterios, indicadores y estándares, señale la opción falsa:",
     "answers": [
       "El indicador se define como una unidad de medida que compara lo que se ha hecho con lo que se debería haber hecho",
@@ -4874,7 +5494,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 396,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La estrategia para evaluar la calidad asistencial desarrollada por Donabedian se basa en:",
     "answers": [
       "Análisis de la estructura, del proceso y de los resultados .",
@@ -4888,7 +5508,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 397,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El principal motor de los programas instituciones de mejora de la calidad es:",
     "answers": [
       "El alto nivel científico -técnico de los profesionales.",
@@ -4902,7 +5522,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 398,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Dentro de las características que deben tener los indicadores de calidad de la asistencia sanitaria, se incluye:",
     "answers": [
       "Normalmente los indicadores son de tipo cualitativo.",
@@ -4916,7 +5536,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 399,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Una de las metas de la OMS es reducir las desigualdades sociale s en salud. El término que hace referencia a esta meta es:",
     "answers": [
       "Igualdad.",
@@ -4930,7 +5550,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 400,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "5 ★ Preanalítica (muestras, suero y plasma)",
     "text": "Un hombre de 80 años llega al servicio de urgencias por dolor torácico, fiebre de 39,3ºC y desorientación. Se obtienen muestreos de sangre en los tubos siguientes anticoagulantes: EDTA, heparina de litio, citrato sódico y un tubo con hielo separador para suero. También se recoge una muestra de esputo. Ante una posible contaminación en el momento de la extracción sanguínea, ¿qué resultados se pueden encontrar fuera de los valores de referencia?",
     "answers": [
       "El resultado de potasio se encuentra elevado porque el tubo con EDTA se ha extraído antes de que el tubo con heparina litio.",
@@ -4944,7 +5564,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 401,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al Manual de la Calidad, señale la respuesta incorrecta:",
     "answers": [
       "Debe incluir la política de la calidad o una referencia de la misma.",
@@ -4958,7 +5578,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 402,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de estas afirmaciones es incorrecta en cuando a la obtención y recogida de muestras?:",
     "answers": [
       "No es necesario verificar que el paciente ha seguido el protocolo de recogida de muestras.",
@@ -4972,7 +5592,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 403,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Señala la respuesta correcta respecto a los marcadores tumorales:",
     "answers": [
       "Especificidad es la capacidad de la prueba para detectar la enfermedad en sujetos enfermos",
@@ -4986,7 +5606,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 404,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Teniendo en cuenta los métodos de evaluación de la calidad: Equidad, eficiencia, eficacia y efectividad, señale la opción falsa:",
     "answers": [
       "La eficiencia es la relación entre el coste del producto y su beneficio en términos de salud",
@@ -5000,7 +5620,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 405,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál es el código de la ONU que corresponde a materia biológica clase B?",
     "answers": [
       "2814",
@@ -5014,7 +5634,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 406,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Cómo se denomina un componente cuando es objeto de análisis",
     "answers": [
       "Espécimen",
@@ -5028,7 +5648,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 407,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "¿Cuál de las siguientes afirmaciones es cierta en relación con el error sistemático?",
     "answers": [
       "Se mide con el coeficiente de variación.",
@@ -5042,7 +5662,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 408,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto a la desviación estándar:",
     "answers": [
       "Es un estadístico que ayuda a la medida de la imprecisión de un método de medida.",
@@ -5056,7 +5676,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 409,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Con carácter general, ¿cuál es el tiempo máximo permitido entre la extracción de sangre y su separación para la obte nción de suero?",
     "answers": [
       "30 minutos",
@@ -5070,7 +5690,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 410,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿De qué trata la norma ISO/IEC17025?",
     "answers": [
       "Un sistema de acreditación de calidad destinado a cualquier organización",
@@ -5084,7 +5704,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 411,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En los programas de garantía externa de la calidad se evalúan los resultados del",
     "answers": [
       "Control de calidad interno de gestión interna.",
@@ -5098,7 +5718,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 412,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "El objetivo del mantenimiento correctivo es:",
     "answers": [
       "Programar los fallos o averías de los equipos.",
@@ -5112,7 +5732,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 413,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "En cuanto al transporte de muestras, señale la incorrecta.",
     "answers": [
       "Se recomienda que los recipientes primarios se transporten en posición vertical, con el tapón en la parte superior.",
@@ -5126,7 +5746,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 414,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "La hemólisis provoca alteración de algunos parámetros, señala la i ncorrecta:",
     "answers": [
       "Lactato deshidrogenasa (LDH).",
@@ -5140,7 +5760,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 415,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de las siguientes afirmaciones es verdadera?",
     "answers": [
       "La filtración es un método básico para separar sustancias sólidas en suspensión de un medio líquido.",
@@ -5154,7 +5774,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 416,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "1 ★ Calibración y control de calidad",
     "text": "Cuando existe concordancia entre el valor medido y el verdadero, hablamos de:",
     "answers": [
       "Precisión",
@@ -5168,7 +5788,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 417,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Está descrito en la literatura que hasta un 60 -70 % de los errores de laboratorio se relacionan con la fase:",
     "answers": [
       "Analítica",
@@ -5182,7 +5802,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 418,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Qué es una disolución 1 molar (M)?",
     "answers": [
       "Aquella que contiene 1 m ol de disoluci ón en 1 litro de soluto",
@@ -5196,7 +5816,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 419,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "4 ★ Unidades, concentraciones y diluciones",
     "text": "¿Al número de moles de soluto por kilo de disolvente, se le denomina?",
     "answers": [
       "Molalidad",
@@ -5210,7 +5830,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 420,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes errores no se considera un error en la fase analítica de la muestra?",
     "answers": [
       "Un error en el pipeteo de la muestra",
@@ -5222,9 +5842,23 @@ const OFFICIAL_QUESTIONS = [
     "explanation": ""
   },
   {
+    "id": 421,
+    "theme": "Tema 1",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
+    "text": "La capacidad de una prueba de detectar una enfermedad, se denomina:",
+    "answers": [
+      "Sensibilidad",
+      "Especificidad",
+      "Exactitud",
+      "Precisión"
+    ],
+    "correct": 0,
+    "explanation": ""
+  },
+  {
     "id": 422,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "Para construir una curva de calibrado. Indica la pregunta incorrecta:",
     "answers": [
       "Se prepara un blanco con todos las componentes de la muestra, pero sin la molécula de interés.",
@@ -5238,7 +5872,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 423,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "2 ★ Estadística diagnóstica y rendimiento de las pruebas",
     "text": "El parámetro capaz de diferenciar pequ eñas variaciones en la medida de un analito se le conoce como:",
     "answers": [
       "Sensibilidad.",
@@ -5252,7 +5886,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 424,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "¿Cuál de los siguientes objetivos no está incluido en la fase postanalítica?",
     "answers": [
       "Aplicar protocolos para garantizar la calidad de l diseño y proceso analítico.",
@@ -5266,7 +5900,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 425,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "Respecto al control de calidad externo, señale la respuesta correcta:",
     "answers": [
       "Al realizar los controles de calidad internos, ya no son necesarios los externos. Página 46 de 46 PREGUNTAS DE EXÁMENES OFICIALES Test tema 1: Conceptos generales _______________________________________________________________________________________ Academia Contraste de Fases http://formaciontecnicolaboratorio.com/ Síguenos: Contrastedefases",
@@ -5280,7 +5914,7 @@ const OFFICIAL_QUESTIONS = [
   {
     "id": 426,
     "theme": "Tema 1",
-    "subtheme": "Todos",
+    "subtheme": "3 ★ Intervalos de referencia y variabilidad biológica",
     "text": "En relación con la estandarización de los colores de los tubos para muestras sanguíneas:",
     "answers": [
       "Los tubos morados o de color malva contiene EDTA.",
