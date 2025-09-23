@@ -194,6 +194,7 @@ function populateThemesAndSubthemes(){
 }
 
 function init(){
+  populateThemesAndSubthemes();
   document.getElementById("restart-btn").addEventListener("click", resetApp);
   const inicioBtn = document.getElementById("nav-inicio-btn");
   if (inicioBtn) inicioBtn.addEventListener("click", resetApp);
@@ -209,7 +210,8 @@ function init(){
     const n = Math.max(1, Math.min(100, parseInt(document.getElementById("num-questions").value || "10", 10)));
 
     // filtrar preguntas
-    let pool = QUESTIONS.filter(q=>q.theme==="Tema 1");
+    const selectedTheme = document.getElementById("theme").value;
+    let pool = QUESTIONS.filter(q=>q.theme===selectedTheme);
     if (subSel && subSel !== "Todos"){ pool = pool.filter(q=>q.subtheme===subSel); }
     pool = shuffle(pool).slice(0, n);
 
@@ -228,6 +230,4 @@ function init(){
     if (mode === "immediate") renderImmediateControls(); else renderExamControls();
   });
 }
-document.addEventListener("DOMContentLoaded", function init(){
-  populateThemesAndSubthemes();
-});
+document.addEventListener("DOMContentLoaded", init);
